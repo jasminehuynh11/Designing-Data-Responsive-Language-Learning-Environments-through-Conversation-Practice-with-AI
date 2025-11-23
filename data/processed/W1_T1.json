@@ -325,6 +325,11 @@
       "turn": 65,
       "speaker": "learner",
       "text": "“Thank you. No, thank you. That's it. That's it. All done, and have a good day.”"
+    },
+    {
+      "turn": 66,
+      "speaker": "bot",
+      "text": "You’re very welcome! I’m glad I could help. Have a fantastic day, and enjoy your drinks and treats! Take care!"
     }
   ]
 }

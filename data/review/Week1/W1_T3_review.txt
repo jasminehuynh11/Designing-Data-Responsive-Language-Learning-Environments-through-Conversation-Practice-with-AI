@@ -1,0 +1,85 @@
+================================================================================
+DIALOGUE REVIEW: W1_T3
+================================================================================
+
+Student ID: 18
+Task Topic: Returning or Exchanging Clothes
+Total Turns: 17
+Total Repairs: 1
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 0
+  Learner-Initiated (LI): 1
+  Resolved (R): 1
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [9]
+  Initiation: LI
+  Resolution: R
+  Trigger: self-correction – learner corrects own previous utterance
+  Evidence: The learner starts an utterance with an incomplete phrase ('if I buy this as a'), then pauses and rephrases their thought process ('yes, I take this out, maybe I think this is better') before formulating a clear question. This is a self-correction of an unclear initial utterance, initiated by the learner and successfully resolved as the question becomes clear.
+
+  Turn Content:
+    Turn 9 (learner): “Oh, if I buy this as a, yes, I take this out, maybe I think this is better. And if I buy this as a ...
+
+
+================================================================================
+FULL DIALOGUE:
+================================================================================
+
+Turn 1 (learner):
+  Task three
+
+Turn 2 (learner):
+  Hello, I bought this shirt last week but it doesn’t fit. I have the receipt here. So, could I exchange it for a smaller size?”
+
+Turn 3 (learner):
+  “Thank you. Because it is too large for me and I think there is a little bit stain in the sleeve.”
+
+Turn 4 (learner):
+  “Okay, so I want to ask more further information, like how many days do I have to return an item?”
+
+Turn 5 (learner):
+  “Okay, so, okay, let me take a look. So, can I exchange this for something else in the same price range?”
+
+Turn 6 (learner):
+  “Okay, let me take a look around the shop.”
+
+Turn 7 (learner):
+  “Okay, thank you.”
+
+Turn 8 (learner):
+  “OK, then.”
+
+Turn 9 (learner):
+  “Oh, if I buy this as a, yes, I take this out, maybe I think this is better. And if I buy this as a gift, can the person return it without a receipt?”
+
+Turn 10 (learner):
+  “Okay, thank you. And my husband bought another jumper in the shop and I noticed a loose seam. Could you fix it here or should I return it?”
+
+Turn 11 (learner):
+  “Okay, so can I return this if I've already taken off the tax?”
+
+Turn 12 (learner):
+  “Okay, thank you. And...”
+
+Turn 13 (learner):
+  “Yes, I bought this”
+
+Turn 14 (learner):
+  “I bought this electronic device on your online shop. And what happens if the item is damaged when I open it?”
+
+Turn 15 (learner):
+  “Okay, thank you. And of course, because this is near Christmas, right, so do you offer extended returns for Christmas purchases?”
+
+Turn 16 (learner):
+  “That's perfect. Thank you very much, and I'm so sorry for asking so many questions.”
+
+Turn 17 (learner):
+  “Okay, thank you, and I appreciate you explaining that policy, and thanks for your help. See you!”
+

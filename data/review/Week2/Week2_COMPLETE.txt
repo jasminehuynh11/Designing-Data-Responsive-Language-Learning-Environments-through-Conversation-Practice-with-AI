@@ -1,0 +1,377 @@
+================================================================================
+WEEK 2 - COMPLETE REVIEW DOCUMENT
+================================================================================
+Generated for human-in-the-loop cross-checking
+Total Dialogues: 3
+Total Repairs: 12
+================================================================================
+
+
+
+================================================================================
+DIALOGUE: W2_T1
+================================================================================
+
+Student ID: 12
+Task Topic: Visiting a Medical Clinic
+Total Turns: 46
+Total Repairs: 7
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 0
+  Learner-Initiated (LI): 7
+  Resolved (R): 7
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [7, 8, 9]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner did not understand bot's previous utterance
+  Evidence: The learner explicitly states 'Sorry, I didn't catch you' in turn 7, indicating a lack of understanding of the bot's previous question. The bot rephrases its question in turn 8, and the learner responds appropriately in turn 9, showing the issue was resolved.
+
+  Turn Content:
+    Turn 7 [LEARNER]: “Sorry, I didn't catch you.”...
+    Turn 8 [BOT]: No worries at all! I was just asking if you have a preferred date or time for your appointment, so w...
+    Turn 9 [LEARNER]: “I just want as soon as possible because my toothache is a little bit heavy.”...
+
+
+Repair 2:
+  Turns: [11, 12, 13, 14, 15]
+  Initiation: LI
+  Resolution: R
+  Trigger: unclear phrasing – learner's awkward questions about time
+  Evidence: The learner uses awkward phrasing like 'up-to-date time' (turn 11) and 'period time' (turn 13) to inquire about the appointment time. The bot successfully interprets the learner's intent to find the earliest available time (turn 12) and then provides a specific period (turn 14), which the learner accepts in turn 15, resolving the communication trouble stemming from the learner's phrasing.
+
+  Turn Content:
+    Turn 11 [LEARNER]: “When is the up-to-date time to the appointment?”...
+    Turn 12 [BOT]: Let me quickly check that for you. I’ll find the earliest available time and let you know in just a ...
+    Turn 13 [LEARNER]: “So, which is the period time?”...
+    Turn 14 [BOT]: Alright, I’ve found an appointment available later today in the afternoon. Does that work for you?...
+    Turn 15 [LEARNER]: “Oh, yes?”...
+
+
+Repair 3:
+  Turns: [17, 18, 19]
+  Initiation: LI
+  Resolution: R
+  Trigger: bot omission – bot did not provide specific time
+  Evidence: After the bot mentioned an appointment 'later today in the afternoon' (turn 14), the learner explicitly asks for the specific time in turn 17. The bot provides the exact time (3 PM) in turn 18, and the learner confirms understanding in turn 19, resolving the missing information.
+
+  Turn Content:
+    Turn 17 [LEARNER]: “Sorry, but what time is it?”...
+    Turn 18 [BOT]: The appointment is scheduled for 3 PM this afternoon. I hope that works perfectly for you!...
+    Turn 19 [LEARNER]: “Okay, that's okay.”...
+
+
+Repair 4:
+  Turns: [23, 24]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner clarification – adding a new preference/constraint
+  Evidence: The learner introduces a new preference for a female dentist in turn 23, which could potentially affect the previously discussed booking. The bot acknowledges and confirms it will accommodate this request in turn 24, resolving the potential issue and moving forward with the updated preference.
+
+  Turn Content:
+    Turn 23 [LEARNER]: “Sorry, but I want a female dentist. I'm a little bit shy.”...
+    Turn 24 [BOT]: Of course, I totally understand. I'll make sure to schedule you with a female dentist. I'll confirm ...
+
+
+Repair 5:
+  Turns: [27, 28]
+  Initiation: LI
+  Resolution: R
+  Trigger: unclear phrasing – learner's awkward question about arrival time
+  Evidence: The learner uses the awkward phrasing 'more earlier' in turn 27 to ask about an earlier arrival time for the newly arranged check-up. The bot correctly interprets this as a request for an earlier check-up and confirms it will try to arrange it in turn 28, successfully resolving the communication despite the learner's phrasing.
+
+  Turn Content:
+    Turn 27 [LEARNER]: “So will I get to the hospital more earlier?”...
+    Turn 28 [BOT]: I can definitely try to arrange an earlier check-up for you. I'll see what's available and let you k...
+
+
+Repair 6:
+  Turns: [35, 36]
+  Initiation: LI
+  Resolution: R
+  Trigger: fragmented/unclear phrasing – learner's grammatically incorrect and fragmented question
+  Evidence: The learner's utterance in turn 35 is highly fragmented and grammatically incorrect, making it difficult to understand their question about what to do if they don't receive the email. The bot successfully interprets the underlying intent and provides a clear solution in turn 36, resolving the communication trouble.
+
+  Turn Content:
+    Turn 35 [LEARNER]: “But as soon as I went to a restaurant to meet my friend, so what will I do when I didn't well, I ha...
+    Turn 36 [BOT]: No worries at all! If you don't receive the email right away, just let me know and I'll resend it to...
+
+
+Repair 7:
+  Turns: [39, 40, 41]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner misunderstanding – misunderstanding bot's identity/capabilities
+  Evidence: The learner asks for the bot's personal number in turn 39, indicating a misunderstanding of the bot's nature as an AI. The bot clarifies its role and offers the clinic's phone number instead in turn 40, which the learner accepts in turn 41, resolving the misunderstanding.
+
+  Turn Content:
+    Turn 39 [LEARNER]: “Would you give me your number?”...
+    Turn 40 [BOT]: I’m here to help you anytime through our chat or email, but if you need the clinic's phone number, I...
+    Turn 41 [LEARNER]: “That's fine.”...
+
+
+================================================================================
+FULL DIALOGUE
+================================================================================
+
+Turn   1 [LEARNER ]: “Some more, I'm visiting a medical clinic in person, and you will help me to book the service.”
+Turn   2 [BOT     ]: Absolutely, I'd be happy to help with that! Let's get started. What kind of medical service are you looking to book, and do you have a preferred date and time?
+Turn   3 [LEARNER ]: “Hi, I'd like to make an appointment to see a doctor.”
+Turn   4 [BOT     ]: Sure thing! I'd be happy to help with that. May I ask what the reason for your visit is, so I can find the right doctor for you?
+Turn   5 [LEARNER ]: “I have a toothache.”
+Turn   6 [BOT     ]: I'm sorry to hear that you're dealing with a toothache. I'll make sure we get you an appointment with a dentist as soon as possible. Do you have a preferred date or time for the appointment?
+Turn   7 [LEARNER ]: “Sorry, I didn't catch you.”
+Turn   8 [BOT     ]: No worries at all! I was just asking if you have a preferred date or time for your appointment, so we can find a slot that works best for you.
+Turn   9 [LEARNER ]: “I just want as soon as possible because my toothache is a little bit heavy.”
+Turn  10 [BOT     ]: I'm sorry you're in pain. I'll prioritize getting you the earliest available appointment. Let me just check the soonest slot for you!
+Turn  11 [LEARNER ]: “When is the up-to-date time to the appointment?”
+Turn  12 [BOT     ]: Let me quickly check that for you. I’ll find the earliest available time and let you know in just a moment!
+Turn  13 [LEARNER ]: “So, which is the period time?”
+Turn  14 [BOT     ]: Alright, I’ve found an appointment available later today in the afternoon. Does that work for you?
+Turn  15 [LEARNER ]: “Oh, yes?”
+Turn  16 [BOT     ]: Great! I’ll go ahead and book that for you. You should receive a confirmation shortly. If there's anything else you need, just let me know!
+Turn  17 [LEARNER ]: “Sorry, but what time is it?”
+Turn  18 [BOT     ]: The appointment is scheduled for 3 PM this afternoon. I hope that works perfectly for you!
+Turn  19 [LEARNER ]: “Okay, that's okay.”
+Turn  20 [BOT     ]: Fantastic! I'm glad that works for you. If you need any more assistance before your appointment, just let me know. Otherwise, I hope you feel better soon!
+Turn  21 [LEARNER ]: “Who will I be seeing, the doctor or just as a student of the dentist?”
+Turn  22 [BOT     ]: You'll be seeing a dentist for your toothache, so you'll get the right care for that. If you have any other questions before your appointment, just let me know!
+Turn  23 [LEARNER ]: “Sorry, but I want a female dentist. I'm a little bit shy.”
+Turn  24 [BOT     ]: Of course, I totally understand. I'll make sure to schedule you with a female dentist. I'll confirm that for you right away. Thank you for letting me know!
+Turn  25 [LEARNER ]: “I need some check before I visit the dentist.”
+Turn  26 [BOT     ]: Absolutely, we can arrange that for you as well. I'll make sure you have a check-up with the appropriate medical professional before seeing the dentist. Let me take care of that for you!
+Turn  27 [LEARNER ]: “So will I get to the hospital more earlier?”
+Turn  28 [BOT     ]: I can definitely try to arrange an earlier check-up for you. I'll see what's available and let you know as soon as possible. Just hang tight, and I'll get that sorted!
+Turn  29 [LEARNER ]: “Maybe I will arrive at 2 p.m.”
+Turn  30 [BOT     ]: Got it! I’ll make sure everything is set for your arrival at 2 PM. If there's anything else you need in the meantime, just let me know!
+Turn  31 [LEARNER ]: “So if you confirm it and I will receive an email.”
+Turn  32 [BOT     ]: Absolutely, I'll confirm everything and send you an email with all the details. You'll have it shortly! If there's anything else you think of, just let me know.
+Turn  33 [LEARNER ]: “When will I receive the email?”
+Turn  34 [BOT     ]: You should receive the email confirmation within the next few minutes. If you don't see it shortly, just let me know, and I'll make sure it gets to you.
+Turn  35 [LEARNER ]: “But as soon as I went to a restaurant to meet my friend, so what will I do when I didn't well, I haven't received the email.”
+Turn  36 [BOT     ]: No worries at all! If you don't receive the email right away, just let me know and I'll resend it to you. You can also check your spam folder just in case, but I'll make sure you get it.
+Turn  37 [LEARNER ]: “So how can I contact you?”
+Turn  38 [BOT     ]: You can reach out to me anytime by replying to the email I'll send you, or you can give us a call at the clinic. Whatever is easiest for you!
+Turn  39 [LEARNER ]: “Would you give me your number?”
+Turn  40 [BOT     ]: I’m here to help you anytime through our chat or email, but if you need the clinic's phone number, I can definitely provide that for you in the confirmation email. Just let me know if there's anything else you need!
+Turn  41 [LEARNER ]: “That's fine.”
+Turn  42 [BOT     ]: Great! I'm glad everything's sorted out. If you have any other questions or need anything else, just let me know. Otherwise, I hope everything goes smoothly for your appointment!
+Turn  43 [LEARNER ]: “No, thank you. Let's meet at 2 p.m.”
+Turn  44 [BOT     ]: You're very welcome! I'll be here if you need anything else. Take care and see you soon!
+Turn  45 [LEARNER ]: “Thank you, bye!”
+Turn  46 [BOT     ]: Bye! Take care, and have a wonderful day!
+
+
+================================================================================
+END OF W2_T1
+================================================================================
+
+
+================================================================================
+DIALOGUE: W2_T2
+================================================================================
+
+Student ID: 12
+Task Topic: Visiting a Bank
+Total Turns: 36
+Total Repairs: 1
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 0
+  Learner-Initiated (LI): 1
+  Resolved (R): 1
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [23, 24, 25]
+  Initiation: LI
+  Resolution: R
+  Trigger: self-correction – learner corrects own previous utterance
+  Evidence: The learner hesitates and produces an incomplete utterance in turn 23, signaling trouble in formulating their thought. The bot offers a supportive response in turn 24, and the learner successfully completes their question in turn 25, resolving the initial trouble.
+
+  Turn Content:
+    Turn 23 [LEARNER]: “OK, so at the same time, can I get, um, can I...”...
+    Turn 24 [BOT]: Of course, I’m here whenever you need...
+    Turn 25 [LEARNER]: “So, I can open a joint account with my partner.”...
+
+
+================================================================================
+FULL DIALOGUE
+================================================================================
+
+Turn   1 [LEARNER ]: “a local bank branch and calling a customer service to request to help with everyday banking service and you are the you are the shopper and I'm the customer so let's start the communication.”
+Turn   2 [BOT     ]: Absolutely, let's get started! Hello! This is your local bank branch. How can I assist you today with your banking needs?
+Turn   3 [LEARNER ]: “Hi, I'd like to open a new CV account in your bank.”
+Turn   4 [BOT     ]: Of course! I'd be happy to help you with that. Could you please let me know if you have any specific requirements or if there's a particular type of savings account you're interested in?
+Turn   5 [LEARNER ]: “No yet, but you can find the table that I have finished on the website.”
+Turn   6 [BOT     ]: Got it! That makes it easy. I'll just confirm a few details with you. Could you please provide me with your ID and any initial deposit amount you'd like to make?
+Turn   7 [LEARNER ]: “Yeah, of course, and you can check it in 100.”
+Turn   8 [BOT     ]: Perfect, I’ll take a look at that for you right away. Once I confirm everything, we’ll be all set to open your new savings account!
+Turn   9 [LEARNER ]: “So, can I set up online banking at the same time?”
+Turn  10 [BOT     ]: Absolutely, we can get that set up for you as well! I'll include that in the process. Just a moment, and we'll have everything ready for you!
+Turn  11 [LEARNER ]: “And could I open the saving account and the everyday account at the same time?”
+Turn  12 [BOT     ]: Absolutely, you can definitely do that! I'll set up both the savings account and the everyday account for you at the same time. Let me just take care of that for you!
+Turn  13 [LEARNER ]: “Can your account add into the Apple Pay?”
+Turn  14 [BOT     ]: Of course, I can help with that as well! Once we have everything set up, I'll guide you through adding your new accounts to Apple Pay. Just a moment, and we'll get it all done!
+Turn  15 [LEARNER ]: “So when will I receive your physical card?”
+Turn  16 [BOT     ]: You should receive your physical card within about 5 to 7 business days. In the meantime, you'll be able to use the accounts digitally. If you need anything else, just let me know!
+Turn  17 [LEARNER ]: “So if I want to use the card emergency, could I use the online bank?”
+Turn  18 [BOT     ]: Absolutely! You can start using the online banking right away, and that will give you access to all your accounts digitally, including making payments and transfers. If you need any help with that, I’m here for you!
+Turn  19 [LEARNER ]: “If I want to transfer a large amount of my money, how do you verify the identity for me?”
+Turn  20 [BOT     ]: We do have a security process in place for larger transfers. Typically, we’ll verify your identity through a secure code sent to your phone or email, and sometimes we might need a quick verification call. I can guide you through that whenever you're ready!
+Turn  21 [LEARNER ]: “So could you assure that you will make nothing wrong when I transfer a huge amount of money?”
+Turn  22 [BOT     ]: Absolutely, I’ll make sure everything is handled securely and smoothly for you. You can count on me to guide you through the process, and if you have any concerns, I’m here to help.
+Turn  23 [LEARNER ]: “OK, so at the same time, can I get, um, can I...”
+Turn  24 [BOT     ]: Of course, I’m here whenever you need
+Turn  25 [LEARNER ]: “So, I can open a joint account with my partner.”
+Turn  26 [BOT     ]: Absolutely, you can definitely open a joint account with your partner. I'll just need a few details from both of you, and we can get that set up at the same time. Let me know when you're ready!
+Turn  27 [LEARNER ]: “Yes, we are ready. So what details do you need?”
+Turn  28 [BOT     ]: Great! I'll just need some basic information from both of you, like your full names, addresses, and identification details. We can also discuss any specific preferences for the account. Let’s get started!
+Turn  29 [LEARNER ]: “Okay, that's all, and I won't give you the details.”
+Turn  30 [BOT     ]: Perfect! I'll be ready to take those details from you whenever you're set. Just let me know, and we'll get everything all squared away!
+Turn  31 [LEARNER ]: “You will receive the physical card just a few days later and in our home, right?”
+Turn  32 [BOT     ]: Absolutely, that’s perfect! You can expect to receive your physical card in just a few days at home. If you have any other questions or need help with anything else, just let me know!
+Turn  33 [LEARNER ]: “ご視聴ありがとうございました。”
+Turn  34 [BOT     ]: You're very welcome! I'm glad I could help. If you need anything else in the future, just reach out. Have a wonderful day!
+Turn  35 [LEARNER ]: “Have a good day. Bye.”
+Turn  36 [BOT     ]: Take care! Bye for now, and have a great day!
+
+
+================================================================================
+END OF W2_T2
+================================================================================
+
+
+================================================================================
+DIALOGUE: W2_T3
+================================================================================
+
+Student ID: 12
+Task Topic: Enquiring About a Rental Property
+Total Turns: 44
+Total Repairs: 4
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 3
+  Learner-Initiated (LI): 1
+  Resolved (R): 4
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [15, 16]
+  Initiation: BI
+  Resolution: R
+  Trigger: lexical error – 'bound' instead of 'bond'
+  Evidence: The learner used the incorrect word 'bound' in turn 15. The bot implicitly corrected this to 'bond' in its response in turn 16 and provided a relevant answer, indicating successful understanding and resolution.
+
+  Turn Content:
+    Turn 15 [LEARNER]: “How much is the bound?”...
+    Turn 16 [BOT]: I'll find out the exact amount for the bond and include that in the email as well. That way, you'll ...
+
+
+Repair 2:
+  Turns: [21, 22, 23, 24]
+  Initiation: LI
+  Resolution: R
+  Trigger: ambiguous reference – 'the third day'
+  Evidence: The learner's reference to 'the third day' in turn 21 was ambiguous. The bot's response in turn 22 was generic and did not fully address the ambiguity. The learner then clarified their intent in turn 23 by explaining they wanted to visit twice (morning and evening), which the bot successfully understood and confirmed in turn 24, resolving the initial ambiguity.
+
+  Turn Content:
+    Turn 21 [LEARNER]: “So, on the third day, the whole day is okay, right?”...
+    Turn 22 [BOT]: Yes, absolutely! I’ll make sure to schedule the viewing at a time that’s most convenient for you dur...
+    Turn 23 [LEARNER]: “Because I want to see the situation both in the morning and in the evening, so may I come twice to ...
+    Turn 24 [BOT]: Of course, that sounds totally fine! You’re welcome to come by both in the morning and in the evenin...
+
+
+Repair 3:
+  Turns: [29, 30]
+  Initiation: BI
+  Resolution: R
+  Trigger: lexical error – 'signal the lease' instead of 'sign the lease'
+  Evidence: The learner used the incorrect phrase 'signal the lease' in turn 29. The bot implicitly corrected this to 'sign the lease' in its response in turn 30 and provided a relevant answer, indicating successful understanding and resolution.
+
+  Turn Content:
+    Turn 29 [LEARNER]: “Do I pay the bond before signal the lease?”...
+    Turn 30 [BOT]: Typically, the bond is paid once your application is approved and before you sign the lease. But I’l...
+
+
+Repair 4:
+  Turns: [37, 38]
+  Initiation: BI
+  Resolution: R
+  Trigger: lexical error – 'break the list early' instead of 'break the lease early'
+  Evidence: The learner used the incorrect phrase 'break the list early' in turn 37. The bot implicitly corrected this to 'breaking the lease early' in its response in turn 38 and provided a relevant answer, indicating successful understanding and resolution.
+
+  Turn Content:
+    Turn 37 [LEARNER]: “If I break the list early, what are the consequences?”...
+    Turn 38 [BOT]: That's a great question! Usually, there might be a notice period and possibly a fee for breaking the...
+
+
+================================================================================
+FULL DIALOGUE
+================================================================================
+
+Turn   1 [LEARNER ]: “This time, I'm calling you to ask about a rental property.”
+Turn   2 [BOT     ]: Absolutely, I'd be happy to help you with that! Let's get started. Are you looking to rent a place for yourself, or is it for someone else?
+Turn   3 [LEARNER ]: “OK, let's start. Hi, I'm interested in the two-bedroom unit on Lucenda Street. And I want to register. I want to attending to look at the house.”
+Turn   4 [BOT     ]: That sounds great! I'd be happy to arrange a viewing for you. Could you let me know what day and time would work best for you?
+Turn   5 [LEARNER ]: “Maybe this weekend?”
+Turn   6 [BOT     ]: Perfect, that works for me! I'll check the availability for this weekend and confirm the exact time with you. I'm looking forward to showing you the place!
+Turn   7 [LEARNER ]: “Saturday, can you?”
+Turn   8 [BOT     ]: Absolutely, I can definitely arrange that for you. Just let me know your preferred day and time, and I'll make sure everything is set up for the viewing!
+Turn   9 [LEARNER ]: “So do I need to register before the attending?”
+Turn  10 [BOT     ]: It would be helpful if you could let me know in advance, just so I can confirm the time and prepare everything for you. But I'll make it as easy as possible!
+Turn  11 [LEARNER ]: “So will I receive an email to confirm the details?”
+Turn  12 [BOT     ]: Absolutely! I'll send you an email with all the details shortly, and you can just confirm from there. If you have any questions, feel free to let me know!
+Turn  13 [LEARNER ]: “Are pets allowed?”
+Turn  14 [BOT     ]: That’s a great question! I’ll check the pet policy for that property and include that information in the email as well. Thanks for asking!
+Turn  15 [LEARNER ]: “How much is the bound?”
+Turn  16 [BOT     ]: I'll find out the exact amount for the bond and include that in the email as well. That way, you'll have all the details you need. Thanks for bringing that up!
+Turn  17 [LEARNER ]: “I have submitted my application yesterday on the website and you can confirm it to my details and confirm my attending.”
+Turn  18 [BOT     ]: Got it! I’ll look up your application details and confirm your attendance for the viewing. I’ll include everything in the email so you have all the information you need. Thanks for letting me know!
+Turn  19 [LEARNER ]: “Should I provide any other documents?”
+Turn  20 [BOT     ]: I’ll take a look at the application and see if there are any additional documents needed. If anything comes up, I’ll let you know, but I think you’re all set for now!
+Turn  21 [LEARNER ]: “So, on the third day, the whole day is okay, right?”
+Turn  22 [BOT     ]: Yes, absolutely! I’ll make sure to schedule the viewing at a time that’s most convenient for you during the day. I’ll confirm everything in the email, and we’ll make it super easy for you!
+Turn  23 [LEARNER ]: “Because I want to see the situation both in the morning and in the evening, so may I come twice to attend?”
+Turn  24 [BOT     ]: Of course, that sounds totally fine! You’re welcome to come by both in the morning and in the evening to get a full sense of the place. I’ll make sure everything is arranged for both visits!
+Turn  25 [LEARNER ]: “That's great, thank you. And I'm also interested in another unit just beside it, and could I apply for both?”
+Turn  26 [BOT     ]: Absolutely, you can definitely apply for both! I'll make sure to include all the details for that second unit as well. We’ll get everything sorted so you have all the options you need!
+Turn  27 [LEARNER ]: “If someone else also applies, how will you choose?”
+Turn  28 [BOT     ]: If there are multiple applicants, I’ll make sure to keep you updated on the status, and we can go from there. I’ll do my best to make the process as smooth and transparent as possible for you!
+Turn  29 [LEARNER ]: “Do I pay the bond before signal the lease?”
+Turn  30 [BOT     ]: Typically, the bond is paid once your application is approved and before you sign the lease. But I’ll confirm the exact process for you and let you know in the details.
+Turn  31 [LEARNER ]: “So is it okay to email a copy of my ID?”
+Turn  32 [BOT     ]: Yes, absolutely! You can email a copy of your ID, and I'll make sure everything is kept secure. If you have any other documents or questions, just let me know!
+Turn  33 [LEARNER ]: “I remember I don't have rental history in Australia, so can I still apply?”
+Turn  34 [BOT     ]: Absolutely, you can still apply! We can consider other factors like your employment details and personal references. I’ll make sure the process is as smooth as possible for you!
+Turn  35 [LEARNER ]: “Is my passport okay to apply?”
+Turn  36 [BOT     ]: Absolutely, that should be perfectly fine! We'll take everything into account and make the application as smooth as possible. If there's anything else you need, just let me know!
+Turn  37 [LEARNER ]: “If I break the list early, what are the consequences?”
+Turn  38 [BOT     ]: That's a great question! Usually, there might be a notice period and possibly a fee for breaking the lease early. I’ll get the exact details for you and include them in the email so you have a clear understanding.
+Turn  39 [LEARNER ]: “OK, so every important things and details will in the email to me, right?”
+Turn  40 [BOT     ]: Exactly! I'll make sure to include all the important details in the email so you have everything you need in one place. If you have any other questions, just let me know!
+Turn  41 [LEARNER ]: “No, thank you, that's all.”
+Turn  42 [BOT     ]: You're very welcome! I'm glad I could help. If anything else comes up, just reach out. Have a wonderful day!
+Turn  43 [LEARNER ]: “Okay, thank you. Bye.”
+Turn  44 [BOT     ]: Bye! Take care, and have a great day!
+
+
+================================================================================
+END OF W2_T3
+================================================================================

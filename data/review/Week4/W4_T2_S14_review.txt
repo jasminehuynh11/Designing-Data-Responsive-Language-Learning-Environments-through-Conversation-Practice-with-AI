@@ -1,0 +1,128 @@
+================================================================================
+DIALOGUE REVIEW: W4_T2
+================================================================================
+
+Student ID: 14
+Task Topic: Participating in Group Decisions
+Total Turns: 35
+Total Repairs: 0
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 0
+  Learner-Initiated (LI): 0
+  Resolved (R): 0
+  Unresolved: 0
+
+No repairs detected in this dialogue.
+
+
+================================================================================
+FULL DIALOGUE:
+================================================================================
+
+Turn 1 (learner):
+  Thanks for your time. I'll look into those options.
+
+Turn 2 (bot):
+  You’re very welcome! I’m glad I could help. Feel free to reach out anytime if you have more questions. Good luck with everything, and have a great day! Task 2: Participating in Group Decisions and Negotiating Responsibilities
+
+Turn 3 (learner):
+  Hi. We have just started our group project. Can we plan the task together? Because we need to choose the presentation order. What do you think works best?
+
+Turn 4 (bot):
+  Absolutely, that sounds like a great idea! It’s always helpful to get everyone on the same page. Maybe we can start by listing out all the tasks and then decide who’s best at what. Does that sound good to you?
+
+Turn 5 (learner):
+  Yeah,sounds great.
+
+Turn 6 (bot):
+  Awesome! So let’s start by listing out the main sections of the presentation. Do you have any particular areas you feel more comfortable with?
+
+Turn 7 (learner):
+  I think we should present first, so we have more time to write.
+
+Turn 8 (bot):
+  Got it, that makes sense! So you’ll take the first part. What about the rest of the team? Do you have any preferences on who might handle the next sections?
+
+Turn 9 (learner):
+  This part feels too difficult for me. Can I swap with someone else?
+
+Turn 10 (bot):
+  Of course, we can definitely do that. We can find someone whose strengths match that section better. Do you have a particular person in mind, or should we just discuss it with the group?
+
+Turn 11 (learner):
+  Let's discuss with the group.
+
+Turn 12 (bot):
+  Sounds like a plan! It’s always best to get everyone’s input. So, let’s gather the team and have a quick chat about it. Anything else you’d like to cover?
+
+Turn 13 (learner):
+  I'm happy to try the presentation, but I've never done it before. Any tips?
+
+Turn 14 (bot):
+  Absolutely! Just remember to keep it simple and practice a bit. Also, focusing on your key points and making eye contact will help a lot. And I’m here to help if you need any more tips!
+
+Turn 15 (learner):
+  I see your point. Does anyone have experience with this type of project we could learn from each other?
+
+Turn 16 (bot):
+  That’s a great idea! I’m sure someone in the group has some experience. Let’s do a quick round and see who can share their insights. Sound good?
+
+Turn 17 (learner):
+  Yes, perfect! How do we make sure everyone is doing their part fairly?
+
+Turn 18 (bot):
+  That’s an important question! We can set clear deadlines and have regular check-ins, maybe even a shared document so everyone can update their progress. That way, we can all stay on track and support each other.
+
+Turn 19 (learner):
+  That's great. Do you think we need a shared document to manage tasks?
+
+Turn 20 (bot):
+  I think it could definitely help! It keeps everything transparent and easy to access for everyone. We can set one up and see how it goes!
+
+Turn 21 (learner):
+  Great, thank you. Can I take notes while someone else presents?
+
+Turn 22 (bot):
+  Absolutely, that would be really helpful! That way, we can all focus on the content and you’ll have a solid record of everything. Sounds like a plan!
+
+Turn 23 (learner):
+  Should we check in every few days to stay on track?
+
+Turn 24 (bot):
+  I think that would be a great idea! A quick check-in every few days can help everyone stay accountable and address any issues early on. Let’s do that!
+
+Turn 25 (learner):
+  Let's message each other if we run into problems.
+
+Turn 26 (bot):
+  Absolutely, that’s a perfect approach! Keeping communication open will make everything run smoothly. I’m sure you’ll all do great!
+
+Turn 27 (learner):
+  If someone can't meet the deadline, how should we handle that?
+
+Turn 28 (bot):
+  It’s always good to approach it with understanding and support. We can offer help or adjust the workload if needed, and make sure everyone feels comfortable asking for extensions if necessary. It’s all about teamwork!
+
+Turn 29 (learner):
+  So we are all agree at the moment?
+
+Turn 30 (bot):
+  Absolutely, it sounds like you’ve got a solid plan in place! I’m sure your project is going to go really well. If you need anything else, just let me know!
+
+Turn 31 (learner):
+  Let’s discuss again if we were in trouble.
+
+Turn 32 (bot):
+  That sounds like a great plan! I’m here whenever you need to chat again. Good luck with everything, and I’m sure it’s going to be a success!
+
+Turn 33 (learner):
+  Yes, we got this.
+
+Turn 34 (bot):
+  Absolutely, you definitely do! I’m cheering you on, and I know you’ll do great. Just reach out anytime you need!
+
+Turn 35 (learner):
+  Thank you for your time!
+

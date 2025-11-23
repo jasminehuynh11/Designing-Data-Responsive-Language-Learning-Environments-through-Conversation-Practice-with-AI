@@ -215,6 +215,11 @@
       "turn": 43,
       "speaker": "learner",
       "text": "“Okay, thank you. Bye.”"
+    },
+    {
+      "turn": 44,
+      "speaker": "bot",
+      "text": "Bye! Take care, and have a great day!"
     }
   ]
 }

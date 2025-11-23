@@ -1,0 +1,7 @@
+,num_repairs,num_repairs,num_repairs,num_repairs,num_turns,num_turns,mean_words_per_turn
+,mean,std,sum,count,mean,std,mean
+student_id,,,,,,,
+12,4.0,3.0,12,3,42.0,5.29,19.54
+14,0.0,0.0,0,3,34.67,0.58,23.17
+16,5.67,1.53,17,3,72.67,21.96,21.42
+18,4.0,2.65,12,3,43.67,24.79,20.36

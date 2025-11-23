@@ -1,0 +1,58 @@
+[
+  {
+    "dialogue_id": "W3_T1_S16",
+    "repair_id": 1,
+    "turn_indices": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "unintelligible speech / ASR error",
+    "evidence_summary": "The learner's speech in turn 7 was unintelligible, indicated by 'Transcrição indisponível'. The bot's response in turn 8 was incomplete, suggesting it did not fully process the learner's input. The learner initiated the repair by restarting with a clear greeting in turn 9, which the bot understood and responded to in turn 10, resolving the communication breakdown."
+  },
+  {
+    "dialogue_id": "W3_T1_S16",
+    "repair_id": 2,
+    "turn_indices": [
+      19,
+      20,
+      21
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "comprehension – learner did not understand bot's utterance",
+    "evidence_summary": "The learner explicitly signaled a lack of understanding of the bot's question in turn 18 by asking for a repeat in turn 19. The bot rephrased the question in turn 20, and the learner provided a coherent answer in turn 21, indicating the trouble was resolved."
+  },
+  {
+    "dialogue_id": "W3_T1_S16",
+    "repair_id": 3,
+    "turn_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "comprehension – learner did not understand bot's utterance (repeatedly)",
+    "evidence_summary": "The learner repeatedly indicated a lack of understanding of the bot's question (turns 25, 27). The bot rephrased the question multiple times (turns 26, 28). Although the learner's final response in turn 29 was somewhat ambiguous, the bot successfully interpreted it in turn 30 ('it's just that one device acting up'), resolving the persistent misunderstanding and allowing the dialogue to continue."
+  },
+  {
+    "dialogue_id": "W3_T1_S16",
+    "repair_id": 4,
+    "turn_indices": [
+      39,
+      40,
+      41
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "task misunderstanding – learner unsure of bot's current action/status",
+    "evidence_summary": "The learner asked the bot to check for an outage in turn 39, which the bot had already stated it was doing in previous turns (34, 36). This suggests the learner was unsure about the bot's current task status. The bot confirmed it was checking in turn 40, and the learner then moved on to a new question in turn 41, indicating the issue was resolved."
+  }
+]

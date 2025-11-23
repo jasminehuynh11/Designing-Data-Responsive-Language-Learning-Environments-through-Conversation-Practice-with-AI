@@ -36,39 +36,160 @@ class DialogueParser:
     def parse_week1_week2(self, text: str) -> List[Dict[str, any]]:
         """Parse Week1 and Week2 format."""
         turns = []
-        turn_num = 1
         
-        # Handle both regular colon (:) and full-width colon (：)
-        # Split by both patterns and process in order
-        pattern = re.compile(
-            r'(You said[：:]\s*|English Conversational Partner said[：:]\s*)(.+?)(?=\n(?:You said[：:]|English Conversational Partner said[：:]|$))',
-            re.DOTALL | re.IGNORECASE
-        )
+        # Process line by line to maintain order and handle unlabeled statements
+        lines = text.split('\n')
+        i = 0
         
-        matches = list(pattern.finditer(text))
+        while i < len(lines):
+            line = lines[i].strip()
+            
+            # First check for unlabeled quoted statements (must come before labeled check)
+            # These appear at the start of tasks (e.g., Task 2)
+            # Handle both regular quotes (") and Unicode quotes (", ", etc.)
+            # Check for any quote-like characters
+            has_quoted_content = (('"' in line or '"' in line or '"' in line or '' in line or '' in line) and 
+                                 not ('You said' in line or 'English Conversational Partner said' in line))
+            
+            if has_quoted_content:
+                # Check if this is an unlabeled statement (no "You said" in previous lines)
+                has_label_before = False
+                for prev_idx in range(max(0, i-5), i):
+                    prev_line = lines[prev_idx].strip()
+                    if 'You said' in prev_line or 'English Conversational Partner said' in prev_line:
+                        has_label_before = True
+                        break
+                    # Check if previous line is a task header - if so, this is likely first turn
+                    if re.search(r'Task\s+(?:one|two|three)', prev_line, re.IGNORECASE):
+                        has_label_before = False
+                        break
+                
+                # If no label before and next line is timestamp or bot response, it's a learner turn
+                # Also check if this is the first substantial line (likely start of task)
+                is_first_line = (i == 0 or 
+                                (i > 0 and not lines[i-1].strip() and 
+                                 all(not l.strip() or re.search(r'Task\s+(?:one|two|three)', l, re.IGNORECASE) 
+                                     for l in lines[max(0, i-3):i])))
+                
+                if not has_label_before and i + 1 < len(lines):
+                    next_line = lines[i + 1].strip()
+                    if (re.match(r'\d{1,2}:\d{2}', next_line) or 
+                        'English Conversational Partner said' in next_line or
+                        is_first_line):
+                        # Extract quoted content (handle both regular and Unicode quotes)
+                        # Try different quote patterns
+                        quote_patterns = [
+                            r'"([^"]+)"',  # Regular quotes
+                            r'"([^"]+)"',  # Left/right Unicode quotes
+                            r'"([^"]+)"',  # Alternative Unicode
+                            r'[""]([^""]+)[""]',  # Any quote type
+                        ]
+                        
+                        content = None
+                        for pattern in quote_patterns:
+                            quote_match = re.search(pattern, line)
+                            if quote_match:
+                                content = quote_match.group(1).strip()
+                                break
+                        
+                        if not content:
+                            # Fallback: remove all quote-like characters
+                            content = re.sub(r'^["""]+|["""]+$', '', line).strip()
+                            # Remove any leading special characters
+                            content = re.sub(r'^[^\w]+', '', content)
+                        # Remove trailing period and any remaining quote marks (regular and Unicode)
+                        # Remove quotes from both ends
+                        quote_chars = ['"', '"', '"', ''', ''']
+                        for q in quote_chars:
+                            content = content.strip(q)
+                        # Remove trailing period
+                        content = content.rstrip('.')
+                        content = self.clean_text(content)
+                        if content:
+                            turns.append({
+                                'turn': len(turns) + 1,
+                                'speaker': 'learner',
+                                'text': content,
+                                '_pos': i
+                            })
+                        i += 1
+                        continue
+            
+            # Check for labeled turns (You said: or English Conversational Partner said:)
+            if 'You said' in line or 'English Conversational Partner said' in line:
+                # Extract the label and content
+                if 'You said' in line:
+                    speaker = 'learner'
+                    # Get content after the label
+                    label_pattern = r'You said[：:]\s*'
+                    content_match = re.search(label_pattern + r'(.*)', line, re.IGNORECASE)
+                    if content_match:
+                        content = content_match.group(1).strip()
+                        # Content might continue on next lines until next label or end
+                        j = i + 1
+                        while j < len(lines):
+                            next_line = lines[j].strip()
+                            # Stop if we hit a timestamp, next label, or empty line followed by label
+                            if (re.match(r'\d{1,2}:\d{2}', next_line) or
+                                'You said' in next_line or
+                                'English Conversational Partner said' in next_line or
+                                (not next_line and j + 1 < len(lines) and 
+                                 ('You said' in lines[j+1] or 'English Conversational Partner said' in lines[j+1]))):
+                                break
+                            if next_line and not re.match(r'\d{1,2}:\d{2}', next_line):
+                                content += " " + next_line
+                            j += 1
+                        
+                        content = self.clean_text(content)
+                        if content:
+                            turns.append({
+                                'turn': len(turns) + 1,
+                                'speaker': speaker,
+                                'text': content,
+                                '_pos': i
+                            })
+                        i = j
+                        continue
+                
+                elif 'English Conversational Partner said' in line:
+                    speaker = 'bot'
+                    label_pattern = r'English Conversational Partner said[：:]\s*'
+                    content_match = re.search(label_pattern + r'(.*)', line, re.IGNORECASE)
+                    if content_match:
+                        content = content_match.group(1).strip()
+                        # Content might continue on next lines
+                        j = i + 1
+                        while j < len(lines):
+                            next_line = lines[j].strip()
+                            if (re.match(r'\d{1,2}:\d{2}', next_line) or
+                                'You said' in next_line or
+                                'English Conversational Partner said' in next_line or
+                                (not next_line and j + 1 < len(lines) and 
+                                 ('You said' in lines[j+1] or 'English Conversational Partner said' in lines[j+1]))):
+                                break
+                            if next_line and not re.match(r'\d{1,2}:\d{2}', next_line):
+                                content += " " + next_line
+                            j += 1
+                        
+                        content = self.clean_text(content)
+                        if content:
+                            turns.append({
+                                'turn': len(turns) + 1,
+                                'speaker': speaker,
+                                'text': content,
+                                '_pos': i
+                            })
+                        i = j
+                        continue
+            
+            i += 1
         
-        for match in matches:
-            speaker_label = match.group(1).strip()
-            content = match.group(2).strip()
-            
-            # Determine speaker
-            if 'You said' in speaker_label:
-                speaker = 'learner'
-            elif 'English Conversational Partner said' in speaker_label:
-                speaker = 'bot'
-            else:
-                continue
-            
-            # Clean content
-            content = self.clean_text(content)
-            
-            if content:  # Only add non-empty turns
-                turns.append({
-                    'turn': turn_num,
-                    'speaker': speaker,
-                    'text': content
-                })
-                turn_num += 1
+        # Sort by position to maintain correct order, then renumber
+        turns.sort(key=lambda x: x.get('_pos', 999999))
+        for idx, turn in enumerate(turns, 1):
+            turn['turn'] = idx
+            if '_pos' in turn:
+                del turn['_pos']
         
         return turns
     

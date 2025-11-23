@@ -1,0 +1,297 @@
+================================================================================
+DIALOGUE REVIEW: W1_T1
+================================================================================
+
+Student ID: 18
+Task Topic: Ordering Coffee at a Café
+Total Turns: 66
+Total Repairs: 6
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 2
+  Learner-Initiated (LI): 4
+  Resolved (R): 6
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [5, 6]
+  Initiation: BI
+  Resolution: R
+  Trigger: pronunciation/ASR – misrecognition of learner speech
+  Evidence: The learner says 'HOTAS' in turn 5, which is an unclear utterance. The bot implicitly repairs this by interpreting it as 'hot' in turn 6, and the conversation continues smoothly, indicating successful understanding.
+
+  Turn Content:
+    Turn 5 (learner): “HOTAS.”...
+    Turn 6 (bot): Great, a hot matcha latte it is! Would you like any specific milk, like almond, oat, or regular dair...
+
+
+Repair 2:
+  Turns: [29, 30]
+  Initiation: LI
+  Resolution: R
+  Trigger: self-correction – learner corrects own previous utterance
+  Evidence: The learner explicitly self-corrects their order from an initial hesitation ('um, no') to 'a banana bread' in turn 29. The bot successfully processes this corrected order in turn 30, resolving the self-correction.
+
+  Turn Content:
+    Turn 29 (learner): “Yes, she'll have a slice of, um, no, a banana bread with gluten-free and she'll like espresso.”...
+    Turn 30 (bot): Perfect! So that's one gluten-free banana bread and one espresso for your friend. That sounds lovely...
+
+
+Repair 3:
+  Turns: [35, 36]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner checking understanding – complex order change
+  Evidence: The learner makes a complex order change in turn 35 and explicitly asks for confirmation ('right?'). The bot confirms the entire order correctly in turn 36, resolving the learner's check for understanding.
+
+  Turn Content:
+    Turn 35 (learner): “Okay. Oh, thank you. So I'll change my cake to banana bread so that makes a combo with two banana b...
+    Turn 36 (bot): Yes, exactly! So that’s two slices of banana bread, one hot matcha latte, and one espresso. That def...
+
+
+Repair 4:
+  Turns: [53, 54]
+  Initiation: LI
+  Resolution: R
+  Trigger: vocabulary – did not understand word/phrase ('Arabica')
+  Evidence: The learner misinterprets 'Arabica beans' as 'sourced from Arabic' in turn 53. The bot clarifies the term in turn 54, and the conversation moves on, indicating the misunderstanding was resolved.
+
+  Turn Content:
+    Turn 53 (learner): “Oh, so your beans are sourced from Arabic.”...
+    Turn 54 (bot): Yes, exactly! We carefully select Arabica beans, known for their smooth and complex flavor profiles....
+
+
+Repair 5:
+  Turns: [57, 58]
+  Initiation: BI
+  Resolution: R
+  Trigger: bot misunderstanding – misinterpretation of 'without milk'
+  Evidence: The learner requests a drink 'without milk' in turn 57. The bot misinterprets this by suggesting 'use oat milk for a creamy, dairy-free option' in turn 58. This bot misunderstanding is immediately addressed by the learner in the subsequent turn, leading to its resolution.
+
+  Turn Content:
+    Turn 57 (learner): “Okay, great. Thank you. And I'm interested in trying something new today. Can you make it have stre...
+    Turn 58 (bot): Absolutely, we can do that! I can definitely adjust the strength to be a bit lighter and use oat mil...
+
+
+Repair 6:
+  Turns: [59, 60, 61, 62, 63, 64]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner clarification – specifying milk preference after bot's misinterpretation
+  Evidence: Following the bot's misinterpretation in turn 58, the learner explicitly corrects the bot's assumption of 'oat milk' and specifies 'almond milk' across turns 59, 61, and 63. The bot confirms the change to almond milk in turn 64, successfully resolving the clarification.
+
+  Turn Content:
+    Turn 59 (learner): “Oh, sorry, I'd like to change it to...”...
+    Turn 60 (bot): No problem at all! Just let me know what you’d...
+    Turn 61 (learner): “No, no, no, I'd want to change to AltMilk to...”...
+    Turn 62 (bot): Got it, no worries!...
+    Turn 63 (learner): “Almond milk, thank you.”...
+    Turn 64 (bot): Perfect! We’ll switch it over to almond milk for you. That sounds great. If there’s anything else yo...
+
+
+================================================================================
+FULL DIALOGUE:
+================================================================================
+
+Turn 1 (learner):
+  “Hi, I would like to order a coffee today!”
+
+Turn 2 (bot):
+  Sure! What kind of coffee would you like today — something like an espresso, latte, or cappuccino?
+
+Turn 3 (learner):
+  “Hi, could I please get a matcha latte?”
+
+Turn 4 (bot):
+  Absolutely, a matcha latte sounds great! Would you like it hot or iced?
+
+Turn 5 (learner):
+  “HOTAS.”
+
+Turn 6 (bot):
+  Great, a hot matcha latte it is! Would you like any specific milk, like almond, oat, or regular dairy?
+
+Turn 7 (learner):
+  “I would like alt-milk, thank you.”
+
+Turn 8 (bot):
+  Perfect, oat milk it is! Would you like to add any sweetener or maybe some flavoring, like vanilla?
+
+Turn 9 (learner):
+  “No, thank you.”
+
+Turn 10 (bot):
+  All right, that sounds perfect! So, just a hot matcha latte with oat milk. Is there anything else I can get for you today?
+
+Turn 11 (learner):
+  “Actually, I want to ask, is the banana bread gluten-free?”
+
+Turn 12 (bot):
+  That's a great question! Let me check on that for you. Our banana bread does have a gluten-free option. Would you like to add a slice to your order?
+
+Turn 13 (learner):
+  “No, thanks. But I'd like a slice of cake.”
+
+Turn 14 (bot):
+  Got it! We have a few cake options. Is there a particular type of cake you're in the mood for, like chocolate, cheesecake, or something else?
+
+Turn 15 (learner):
+  “I would like chocolate, thanks.”
+
+Turn 16 (bot):
+  Awesome, a slice of chocolate cake it is! So, to recap, you’ll have a hot matcha latte with oat milk and a slice of chocolate cake. Anything else I can do for you?
+
+Turn 17 (learner):
+  “No thanks, and how long will that take?”
+
+Turn 18 (bot):
+  It should be ready in just a few minutes, probably around three to five minutes at most. We'll have it fresh and waiting for you!
+
+Turn 19 (learner):
+  “Okay, thank you, and I'll wait near the door, thanks.”
+
+Turn 20 (bot):
+  You're very welcome! I'll let you know as soon as it's ready. Thanks for your order, and we'll see you in just a bit!
+
+Turn 21 (learner):
+  “Thank you.”
+
+Turn 22 (bot):
+  You're welcome!
+
+Turn 23 (learner):
+  “Sorry, hello, uh, do you, um, do you have anything vegan for my friend? How?”
+
+Turn 24 (bot):
+  Of course! We do have several vegan options. For drinks, we have almond milk, oat milk, and soy milk. And for food, we have vegan pastries and snacks as well. Let me know what your friend might be interested in!
+
+Turn 25 (learner):
+  “Wait a minute. I'd like to check. Sorry.”
+
+Turn 26 (bot):
+  No worries at all, take your time! Just let me know if you have any questions or need any help.
+
+Turn 27 (learner):
+  Transcript Unavailable
+
+Turn 28 (bot):
+  Alright, sounds good! Just let me know what you'd like to pick, and I'll make sure everything’s set.
+
+Turn 29 (learner):
+  “Yes, she'll have a slice of, um, no, a banana bread with gluten-free and she'll like espresso.”
+
+Turn 30 (bot):
+  Perfect! So that's one gluten-free banana bread and one espresso for your friend. That sounds lovely! Let me know if
+
+Turn 31 (learner):
+  “Yes.”
+
+Turn 32 (bot):
+  Awesome, that’s all set then! I’ll get everything prepared for you and your friend. If you need anything else, just let me know!
+
+Turn 33 (learner):
+  “Um, yes, and is there a combo price or something else?”
+
+Turn 34 (bot):
+  Absolutely! We do have combo deals, and if you get both the banana bread and the espresso, we can offer you a little discount. I’ll make sure to apply that for you! Let me know if you’d like any more details.
+
+Turn 35 (learner):
+  “Okay. Oh, thank you. So I'll change my cake to banana bread so that makes a combo with two banana breads and one matcha latte and one espresso, right?”
+
+Turn 36 (bot):
+  Yes, exactly! So that’s two slices of banana bread, one hot matcha latte, and one espresso. That definitely gives you a nice combo! I’ll get that all ready for you. Let me know if there
+
+Turn 37 (learner):
+  “Thank you.”
+
+Turn 38 (bot):
+  You're very welcome! If you need anything else at all, just let me know. Otherwise, I’ll have everything ready shortly!
+
+Turn 39 (learner):
+  “Okay, thank you very much. Have a good day!”
+
+Turn 40 (bot):
+  You too! Thanks so much, and have a wonderful day. If you need anything else, just give me a shout. Take care!
+
+Turn 41 (learner):
+  “Hello, um, what do you recommend today?”
+
+Turn 42 (bot):
+  Hello! Well, today we’ve got some delicious options. Our matcha latte is always a favorite, and our chocolate cake is really popular as well. If you’re in the mood for something savory, we’ve got some great vegan pastries too. Let me know what you’re in the mood for!
+
+Turn 43 (learner):
+  “Okay, and what is your most popular drink?”
+
+Turn 44 (bot):
+  Our most popular drink is definitely the matcha latte, especially with oat milk. It's a big hit with our regulars! But if you're looking for something different, we also have some fantastic coffees and specialty teas. Let me know what sounds good to you!
+
+Turn 45 (learner):
+  “Okay, and what's the difference between a flat white and a latte?”
+
+Turn 46 (bot):
+  Great question! So, a flat white typically has a stronger espresso-to-milk ratio and a velvety microfoam, making it a bit more intense and less milky than a latte. On the other hand, a latte has more steamed milk and a lighter layer of foam, giving it a creamier, smoother texture. So it really depends on how strong and creamy you like your coffee!
+
+Turn 47 (learner):
+  “Okay, appreciate your help. And I'd like to ask, is there a student discount?”
+
+Turn 48 (bot):
+  Absolutely! We do offer a student discount. Just show your student ID when you order, and we’ll apply that discount for you. Let me know if you need any other info!
+
+Turn 49 (learner):
+  “Okay, thank you very much. Um, then.”
+
+Turn 50 (bot):
+  You’re very welcome! And if you have any more questions or need anything else, just let me know. I’m here to help!
+
+Turn 51 (learner):
+  “Yes, and I'd like to ask you about what kind of beans do you use for your espresso for my friends.”
+
+Turn 52 (bot):
+  Of course! We use a blend of high-quality, ethically sourced Arabica beans, and they’re roasted locally for maximum freshness and flavor. It gives the espresso a nice, rich, and balanced taste. If your friend has any preferences, just let me know!
+
+Turn 53 (learner):
+  “Oh, so your beans are sourced from Arabic.”
+
+Turn 54 (bot):
+  Yes, exactly! We carefully select Arabica beans, known for their smooth and complex flavor profiles. It definitely makes a difference in the taste of our espresso!
+
+Turn 55 (learner):
+  “OK, and about brewing methods, I've never tried cold brew. What is like?”
+
+Turn 56 (bot):
+  Great question! Cold brew is made by steeping coarsely ground coffee in cold water for an extended period, usually around 12 to 24 hours. The result is a smooth, less acidic coffee with a naturally sweet flavor. It’s really refreshing, especially over ice!
+
+Turn 57 (learner):
+  “Okay, great. Thank you. And I'm interested in trying something new today. Can you make it have strength and without milk?”
+
+Turn 58 (bot):
+  Absolutely, we can do that! I can definitely adjust the strength to be a bit lighter and use oat milk for a creamy, dairy-free option. That sounds like a delicious choice! Let me know if there’s anything else you’d like to customize.
+
+Turn 59 (learner):
+  “Oh, sorry, I'd like to change it to...”
+
+Turn 60 (bot):
+  No problem at all! Just let me know what you’d
+
+Turn 61 (learner):
+  “No, no, no, I'd want to change to AltMilk to...”
+
+Turn 62 (bot):
+  Got it, no worries!
+
+Turn 63 (learner):
+  “Almond milk, thank you.”
+
+Turn 64 (bot):
+  Perfect! We’ll switch it over to almond milk for you. That sounds great. If there’s anything else you’d like to tweak, just let me know!
+
+Turn 65 (learner):
+  “Thank you. No, thank you. That's it. That's it. All done, and have a good day.”
+
+Turn 66 (bot):
+  You’re very welcome! I’m glad I could help. Have a fantastic day, and enjoy your drinks and treats! Take care!
+

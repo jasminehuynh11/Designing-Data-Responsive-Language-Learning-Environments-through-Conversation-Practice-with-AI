@@ -1,0 +1,398 @@
+[
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner demonstrates a solid command of everyday English for routine transactions, using polite forms and managing the conversation effectively. However, they exhibit noticeable grammatical errors, lexical inaccuracies, and hesitations when attempting to express more complex ideas or less common information, characteristic of a B1 level where errors can occur but communication is generally maintained.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "Grammatical errors like 'a banana bread with gluten-free' (Turn 15) and 'What is like?' (Turn 28) indicate a lack of consistent control over more complex structures.",
+      "Lexical inaccuracy evident in 'your beans are sourced from Arabic' (Turn 27) instead of 'Arabica' or 'Arabian' shows limitations in precise word choice.",
+      "Frequent hesitations ('um', 'uh') and incomplete thoughts ('How?' in Turn 12, 'Um, then.' in Turn 25, 'to...' in Turn 31) suggest processing time and a lack of fluidity in spontaneous speech.",
+      "Effective use of polite requests and transactional language ('I would like', 'could I please get', 'appreciate your help') for routine interactions."
+    ],
+    "strengths": [
+      "Can handle routine transactions and simple information exchange effectively.",
+      "Consistently uses polite forms and appropriate transactional language.",
+      "Able to ask for clarification and make specific requests.",
+      "Sufficient vocabulary for common topics in a cafe setting."
+    ],
+    "weaknesses": [
+      "Inconsistent grammatical accuracy, particularly with adjective placement and specific question structures.",
+      "Occasional lexical imprecision or incorrect word choice.",
+      "Noticeable hesitations and self-corrections that impact fluency when forming less routine or more complex ideas.",
+      "Some awkward phrasing when trying to express nuanced concepts."
+    ],
+    "dialogue_id": "W1_T1_S18",
+    "student_id": 18
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner demonstrates a solid B1 level, effectively managing a detailed restaurant booking conversation. They initiate complex requests, provide reasons, and use a variety of sentence structures. However, frequent grammatical errors, awkward phrasing, and imprecise vocabulary choices prevent them from reaching a B2 level of accuracy and fluency.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "**Grammatical errors and self-correction:** 'is there possible' (T7), 'allergy for...she is allergic to' (T12), 'in next Monday' (T10).",
+      "**Lexical inaccuracies:** 'buy the window' (T3), 'bookie' (T9), 'directory needs' (T11), 'care for food' (T12), 'whitelist' (T13).",
+      "**Ability to handle complex interactions:** Asking about special requests (birthday, anniversary), bringing own cake, allergies, payment splitting, and policies (T6, T7, T8, T12, T20, T21).",
+      "**Use of subordinate clauses and conditionals:** 'if I bring my own cake' (T7), 'if we arrive 15 minutes late' (T16), 'if I can't confirm the set menu now' (T18)."
+    ],
+    "strengths": [
+      "Can maintain extended conversation and manage detailed requests.",
+      "Uses a variety of grammatical structures including conditionals and relative clauses.",
+      "Good pragmatic competence, politeness, and general clarity of intent.",
+      "Demonstrates an ability to self-correct, indicating awareness of errors."
+    ],
+    "weaknesses": [
+      "Consistent grammatical errors, particularly with prepositions and auxiliary verbs.",
+      "Limited precision in vocabulary, leading to awkward or incorrect word choices.",
+      "Noticeable hesitations and self-corrections, impacting fluency.",
+      "Struggles to articulate complex ideas accurately and concisely without multiple attempts."
+    ],
+    "dialogue_id": "W1_T2_S18",
+    "student_id": 18
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner consistently communicates effectively in a transactional context, demonstrating a functional grasp of English grammar and appropriate vocabulary for shopping and returns. However, recurring grammatical inaccuracies (e.g., 'a little bit stain,' 'more further information'), noticeable hesitations, and occasional awkward phrasing indicate a solid intermediate level rather than upper-intermediate fluency or accuracy.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B2"
+    },
+    "key_indicators": [
+      "\"a little bit stain\" (Turn 3) - Grammatical inaccuracy with article/noun phrase.",
+      "\"more further information\" (Turn 4) - Redundancy, indicating a lexical/grammatical slip.",
+      "\"Oh, if I buy this as a, yes, I take this out, maybe I think this is better.\" (Turn 9) - Significant disfluency, hesitation, and awkward phrasing when formulating a thought.",
+      "\"can I return this if I've already taken off the tax?\" (Turn 11) - Slightly unnatural phrasing, suggesting a lexical inaccuracy for the concept.",
+      "Consistent use of appropriate politeness markers and question forms throughout the dialogue."
+    ],
+    "strengths": [
+      "Effectively communicates needs, requests, and complex questions.",
+      "Demonstrates strong pragmatic competence and politeness in interaction.",
+      "Uses a good range of topic-specific vocabulary (e.g., 'loose seam', 'extended returns', 'electronic device').",
+      "Can use various sentence structures, including conditional clauses and embedded questions."
+    ],
+    "weaknesses": [
+      "Frequent grammatical inaccuracies (e.g., article use, redundancy, specific phrasings).",
+      "Noticeable hesitations, self-corrections, and disfluencies, particularly when expressing more complex ideas.",
+      "Occasional awkward or non-native-like phrasing.",
+      "Lacks consistent precision and fluency in syntactic control."
+    ],
+    "dialogue_id": "W1_T3_S18",
+    "student_id": 18
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "medium",
+    "justification": "The learner can initiate and sustain a conversation on a familiar topic, successfully conveying core messages and making requests despite frequent grammatical inaccuracies and lexical imprecision. While capable of basic communicative tasks and employing pragmatic strategies effectively, attempts at more complex sentence structures or nuanced expressions often lead to errors or a breakdown in coherence.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "A2",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "\"I just want as soon as possible because my toothache is a little bit heavy.\" (Lexical imprecision: 'heavy toothache' instead of 'severe' or 'bad')",
+      "\"When is the up-to-date time to the appointment?\" (Grammatical errors: 'up-to-date time' for 'earliest available time', 'to the appointment' for 'for the appointment')",
+      "\"So will I get to the hospital more earlier?\" (Grammatical error: double comparative 'more earlier')",
+      "\"But as soon as I went to a restaurant to meet my friend, so what will I do when I didn't well, I haven't received the email.\" (Significant breakdown in grammar, tense consistency, and coherence in a complex sentence attempt)",
+      "\"Sorry, I didn't catch you.\" (Effective use of clarification strategy)"
+    ],
+    "strengths": [
+      "Ability to initiate and manage a practical conversation on a familiar topic.",
+      "Effective use of communication strategies (e.g., asking for clarification, expressing preferences).",
+      "Generally able to convey core meaning despite linguistic shortcomings.",
+      "Appropriate use of politeness markers in requests."
+    ],
+    "weaknesses": [
+      "Frequent grammatical inaccuracies, especially with articles, prepositions, and verb tenses in complex structures.",
+      "Limited lexical range and consistent issues with collocations and precise word choice.",
+      "Difficulty producing complex sentences without significant errors or a breakdown in coherence.",
+      "Lack of naturalness in some expressions."
+    ],
+    "dialogue_id": "W2_T1_S12",
+    "student_id": 12
+  },
+  {
+    "cefr_level": "A2",
+    "confidence": "high",
+    "justification": "The learner can initiate and sustain a conversation on a familiar topic (banking) and exchange information through a series of relevant questions. However, frequent and systematic basic grammatical errors (e.g., articles, prepositions, pronouns, phrasing) and notable pragmatic missteps significantly limit the overall proficiency to an A2 level.",
+    "subscores": {
+      "grammar": "A2",
+      "vocabulary": "A2",
+      "fluency": "A2",
+      "complexity": "A2",
+      "pragmatic": "A2"
+    },
+    "key_indicators": [
+      "Frequent basic grammatical errors: 'No yet' (T3), 'the saving account' (T6), 'Can your account add into the Apple Pay?' (T7), 'your physical card' (T8), 'use the card emergency' (T9), 'the identity for me' (T10), 'make nothing wrong' (T11), 'in our home' (T16).",
+      "Awkward phrasing and word choice: 'shopper' (T1), 'the table that I have finished' (T3).",
+      "Limited syntactic complexity, primarily using simple questions and statements, although attempts at conditionals are present ('If I want to...', T9, T10).",
+      "Pragmatic missteps: referring to the role-play participant as 'shopper' (T1), the abrupt 'I won't give you the details' (T15), and the inclusion of a Japanese phrase (T17) which breaks from the English dialogue.",
+      "Ability to formulate and ask a series of specific questions related to banking services, indicating an ability to handle routine tasks requiring a direct exchange of information."
+    ],
+    "strengths": [
+      "Can initiate and maintain a conversation on a familiar topic.",
+      "Asks a range of specific and relevant questions to achieve communicative goals.",
+      "Generally understands turn-taking and the overall purpose of the dialogue."
+    ],
+    "weaknesses": [
+      "Persistent and fundamental grammatical errors (articles, prepositions, pronouns, verb forms).",
+      "Limited range and precision in vocabulary, leading to awkward or incorrect word choice.",
+      "Syntactic structures are generally simple, with attempts at complexity often resulting in errors.",
+      "Lack of natural fluency, with some hesitation and reliance on discourse markers ('So').",
+      "Significant pragmatic issues affecting context appropriateness and the flow of communication."
+    ],
+    "dialogue_id": "W2_T2_S12",
+    "student_id": 12
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner demonstrates a functional command of English, effectively conveying meaning in a transactional context by asking relevant questions and expressing needs. While many sentences are grammatically correct and the vocabulary range is sufficient for familiar topics, consistent errors in verb forms, tense usage, quantifiers, and specific domain-related vocabulary prevent a higher assessment. The level of syntactic complexity, though present, is not consistently sophisticated enough for B2.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "\"I want to attending to look at the house.\" (Incorrect verb form: 'attending' instead of 'attend')",
+      "\"How much is the bound?\" (Lexical error: 'bound' instead of 'bond')",
+      "\"I have submitted my application yesterday...\" (Incorrect tense usage: present perfect with definite past time marker)",
+      "\"Do I pay the bond before signal the lease?\" (Grammatical/Lexical error: 'signal' instead of 'signing', 'list' instead of 'lease')",
+      "\"So every important things and details will in the email to me, right?\" (Grammatical errors: 'every important things' instead of 'all important things' or 'every important thing'; missing verb 'be' after 'will')"
+    ],
+    "strengths": [
+      "Able to initiate and maintain a conversation effectively on a familiar topic.",
+      "Can ask a variety of questions to gather information and clarify details.",
+      "Communicates needs and intentions clearly despite grammatical and lexical inaccuracies.",
+      "Demonstrates good pragmatic competence, using appropriate politeness and turn-taking.",
+      "Uses a sufficient range of vocabulary relevant to the rental property domain."
+    ],
+    "weaknesses": [
+      "Inconsistent grammatical accuracy, particularly with verb forms, tense, and agreement.",
+      "Errors in distinguishing between homophones or similar-sounding words in key terminology (e.g., 'bound' for 'bond', 'list' for 'lease').",
+      "Occasional missing verbs or incorrect prepositions, which can slightly impede natural flow.",
+      "Syntactic complexity is generally limited to simple or compound sentences, with some attempts at subordination."
+    ],
+    "dialogue_id": "W2_T3_S12",
+    "student_id": 12
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner demonstrates a functional command of English, able to initiate and sustain a conversation, describe problems, ask for information, and make requests with generally appropriate grammar and vocabulary. While some systematic errors in prepositions, word choice, and basic grammar ('I will to wait you') are present, they do not impede comprehension. The ability to use compound and complex sentence structures, like conditional clauses and indirect questions, points to a solid B1 level.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "Uses a range of tenses including present continuous for ongoing issues ('I'm having internet problems', 'I'm trying to use Wi-Fi') and present perfect for past actions with current relevance ('I've tried').",
+      "Attempts and largely succeeds with complex sentence structures such as subordinate clauses of reason ('because I'm having internet problems'), indirect questions ('Could you check if there is an outage'), and conditional clauses ('Who can I contact if this isn't resolved today?').",
+      "Exhibits systematic errors typical of a B1 learner, such as prepositional errors ('In the moment' instead of 'At the moment', 'on the wall' for removal) and lexical inaccuracies ('our lights are not open' instead of 'on', 'a technical' instead of 'a technician').",
+      "Makes a clear grammatical error with modal verbs ('I will to wait you' instead of 'I will wait for you').",
+      "Demonstrates good pragmatic competence by effectively setting up the role-play, using polite requests ('Could you repeat, please?'), asking relevant questions to progress the conversation, and providing clear closing remarks."
+    ],
+    "strengths": [
+      "Ability to maintain a coherent conversation and stay in character for the role-play.",
+      "Effective use of polite language and appropriate conversational strategies.",
+      "Good understanding of context and ability to provide relevant details about a problem.",
+      "Capacity to link ideas and use a variety of sentence structures, including some complex ones."
+    ],
+    "weaknesses": [
+      "Occasional systematic errors in preposition usage.",
+      "Some instances of imprecise word choice or lexical errors that affect naturalness.",
+      "Grammatical errors involving modal verbs and infinitives.",
+      "Phrasing can sometimes be slightly awkward or less idiomatic."
+    ],
+    "dialogue_id": "W3_T1_S16",
+    "student_id": 16
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner demonstrates the ability to engage in extended conversations on familiar topics, expressing needs and describing events using a range of basic and some more complex structures. However, frequent grammatical inaccuracies, particularly with verb tenses and specific lexical choices, and occasional awkward or unclear phrasing, prevent the attainment of a higher level.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "\"In the moment, I'm trying to use Wi-Fi, but our lights are not open.\" (Lexical: 'In the moment' for 'At the moment', 'lights are not open' for 'on')",
+      "\"Last night, I have been in a pub.\" (Grammar: incorrect past tense, should be 'I was')",
+      "\"And after that, I leave it. And when I arrived in my house, didn't my wallet.\" (Grammar: tense error 'leave' for 'left'; incomplete sentence structure 'didn't my wallet')",
+      "\"What happens if a 7-1-1 finds it?\" (Lexical/Pragmatic: misuse of '7-1-1' as a person)",
+      "\"I appreciate your attendance\" (Lexical: incorrect word choice 'attendance' for 'assistance' or 'help')"
+    ],
+    "strengths": [
+      "Can initiate and manage conversations effectively, including asking for repetition and clarification.",
+      "Uses politeness markers appropriately (e.g., 'Could you repeat, please?', 'thank you').",
+      "Able to describe past events and current problems, providing some detail.",
+      "Demonstrates an understanding of common scenarios and the ability to ask relevant questions."
+    ],
+    "weaknesses": [
+      "Inconsistent verb tense usage, especially confusing simple past and present perfect.",
+      "Limited and sometimes inaccurate lexical range, leading to imprecise word choice and awkward collocations.",
+      "Occasional sentence fragments or ungrammatical sentence structures when attempting more complex expressions.",
+      "Some pragmatic missteps due to lexical limitations, leading to slightly unnatural phrasing."
+    ],
+    "dialogue_id": "W3_T2_S16",
+    "student_id": 16
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "medium",
+    "justification": "The learner demonstrates the ability to sustain a conversation, describe past events, express needs, and make requests on familiar topics, characteristic of an intermediate level. However, consistent grammatical inaccuracies, particularly with verb tenses and prepositions, coupled with occasional imprecise lexical choices and a significant lapse into their native language, place them at a solid B1 level with room for improvement.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "\"Last night, I have been in a pub.\" (Turn 2 - incorrect tense for past event)",
+      "\"I just talked together some time.\" (Turn 5 - grammatical error in preposition/adverbial phrase)",
+      "\"it's the high-fired Heliosphere, the brain's Heliosphere, and there is a blue in the headline around this wallet.\" (Turn 8 - significant lexical imprecision and grammatical errors, likely a misremembered or invented description)",
+      "\"I appreciate your attendance\" (Turn 19 - inappropriate word choice, should be 'assistance' or 'help')",
+      "\"Está aí algo que eu deveria preparar antes de eles chegarem?\" (Turn 27 - complete switch to native language, indicating a breakdown in English production at that point)",
+      "Ability to communicate complex issues (lost wallet, broken AC) and ask follow-up questions over multiple turns."
+    ],
+    "strengths": [
+      "Can clearly convey core messages and main points on familiar topics.",
+      "Demonstrates good pragmatic competence, using polite requests and appropriate conversational closings.",
+      "Able to link ideas using basic conjunctions (e.g., 'when,' 'but,' 'and') and construct simple subordinate clauses.",
+      "Manages to elaborate on details when prompted."
+    ],
+    "weaknesses": [
+      "Frequent and systematic grammatical errors, especially with verb tenses (e.g., past simple vs. present perfect), prepositions, and article usage.",
+      "Limited lexical range and occasional difficulty with precise word choice, leading to awkward or incorrect phrasing.",
+      "Struggles with providing accurate and coherent detailed descriptions (e.g., 'Heliosphere' wallet description).",
+      "Significant breakdown in English production when unable to formulate a specific question, resulting in a switch to native language."
+    ],
+    "dialogue_id": "W3_T3_S16",
+    "student_id": 16
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner effectively communicates their academic interests and future plans, demonstrating good pragmatic competence and a sufficient vocabulary for the topic. However, persistent grammatical inaccuracies, particularly in preposition usage, verb forms, and question construction, prevent them from reaching a B2 level, where errors should not lead to misunderstanding.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B2"
+    },
+    "key_indicators": [
+      "\"I'm interested in studying for education\" (Turn 4, 13) - recurring preposition error.",
+      "\"I think make a foundation would be great\" (Turn 7) - clear grammatical error (missing gerund/infinitive).",
+      "\"How different between each university?\" (Turn 9) - significant structural error (missing verb, incorrect phrasing).",
+      "Consistent use of 'Could you' for politeness and ability to ask detailed, relevant follow-up questions (e.g., Turn 10, 14, 16)."
+    ],
+    "strengths": [
+      "Can clearly express detailed intentions and plans.",
+      "Demonstrates good pragmatic competence, politeness, and relevance in questions.",
+      "Maintains coherent conversation flow on academic and career-related topics.",
+      "Uses a functional range of vocabulary appropriate for the context."
+    ],
+    "weaknesses": [
+      "Recurring grammatical errors, especially with prepositions and verb forms.",
+      "Occasional non-idiomatic phrasing and word choice (e.g., 'education industries', 'make a foundation').",
+      "Limited use of complex sentence structures beyond basic coordination and simple conditionals.",
+      "Some questions are grammatically incomplete or incorrectly structured."
+    ],
+    "dialogue_id": "W4_T1",
+    "student_id": 14
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner consistently demonstrates the ability to communicate effectively in a collaborative context, using a range of structures including compound and complex sentences. While generally accurate, there are occasional grammatical errors typical of a B1 learner that prevent assessment at B2.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B2"
+    },
+    "key_indicators": [
+      "Appropriate use of present perfect ('We have just started', 'I've never done it before')",
+      "Consistent use of modal verbs for suggestions, requests, and opinions ('Can we plan', 'I think we should', 'Let's discuss', 'Should we check in')",
+      "Formation of complex sentences with subordinate clauses (causal 'Because we need to choose', temporal 'while someone else presents', conditional 'if we run into problems')",
+      "Use of infinitive of purpose ('to write', 'to manage tasks', 'to stay on track')",
+      "Grammatical error: 'So we are all agree' instead of 'we all agree' or 'we are all in agreement' (Turn 15)",
+      "Grammatical error: 'if we were in trouble' instead of 'if we are in trouble' for a future possibility (Turn 16)"
+    ],
+    "strengths": [
+      "Communicates ideas clearly and directly.",
+      "Demonstrates strong pragmatic competence in initiating, managing, and concluding discussions.",
+      "Uses a functional range of vocabulary appropriate for project management.",
+      "Can form compound and complex sentences to link ideas logically.",
+      "Effectively expresses opinions, suggestions, and requests."
+    ],
+    "weaknesses": [
+      "Occasional grammatical inaccuracies, particularly with verb agreement and conditional tense usage.",
+      "Vocabulary, while appropriate, does not exhibit significant breadth or sophistication beyond everyday terms."
+    ],
+    "dialogue_id": "W4_T2",
+    "student_id": 14
+  },
+  {
+    "cefr_level": "B1",
+    "confidence": "high",
+    "justification": "The learner demonstrates a good ability to communicate effectively on familiar topics related to sports training, expressing needs, asking for advice, and providing context. While several grammatical inaccuracies and usage errors are present (e.g., prepositions, word form, missing articles), they do not impede overall comprehension. The learner's pragmatic competence is strong, showing politeness and clear intent.",
+    "subscores": {
+      "grammar": "B1",
+      "vocabulary": "B1",
+      "fluency": "B1",
+      "complexity": "B1",
+      "pragmatic": "B1"
+    },
+    "key_indicators": [
+      "Turn 4: 'proper defensive' (should be 'proper defense' or 'defensive technique')",
+      "Turn 6: 'recommendation of training' (should be 'recommendations for/on training')",
+      "Turn 10: 'What would you recommend I focus on improving next?' (effective use of indirect question)",
+      "Turn 12: 'How often should I work for a week?' (awkward phrasing, likely missing 'out')",
+      "Turn 15: 'How about team’s goal?' (missing article/pluralization, should be 'team goals' or 'the team's goals')",
+      "Turn 17: 'See you next training.' (missing preposition/article, should be 'at the next training session')"
+    ],
+    "strengths": [
+      "Ability to express specific needs and goals clearly.",
+      "Effective use of polite requests and expressions of gratitude.",
+      "Good topical vocabulary related to sports and training.",
+      "Maintains a clear and logical flow of conversation."
+    ],
+    "weaknesses": [
+      "Consistent errors in preposition usage.",
+      "Occasional errors in word form (e.g., adjective instead of noun).",
+      "Inconsistent use of articles and pluralization.",
+      "Some awkward phrasing and missing words in common collocations (e.g., phrasal verbs)."
+    ],
+    "dialogue_id": "W4_T3",
+    "student_id": 14
+  }
+]

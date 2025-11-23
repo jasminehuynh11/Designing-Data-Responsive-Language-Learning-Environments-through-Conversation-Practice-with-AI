@@ -1,0 +1,377 @@
+================================================================================
+WEEK 1 - COMPLETE REVIEW DOCUMENT
+================================================================================
+Generated for human-in-the-loop cross-checking
+Total Dialogues: 3
+Total Repairs: 12
+================================================================================
+
+
+
+================================================================================
+DIALOGUE: W1_T1
+================================================================================
+
+Student ID: 18
+Task Topic: Ordering Coffee at a Café
+Total Turns: 66
+Total Repairs: 6
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 2
+  Learner-Initiated (LI): 4
+  Resolved (R): 6
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [5, 6]
+  Initiation: BI
+  Resolution: R
+  Trigger: pronunciation/ASR – misrecognition of learner speech
+  Evidence: The learner says 'HOTAS' in turn 5, which is an unclear utterance. The bot implicitly repairs this by interpreting it as 'hot' in turn 6, and the conversation continues smoothly, indicating successful understanding.
+
+  Turn Content:
+    Turn 5 [LEARNER]: “HOTAS.”...
+    Turn 6 [BOT]: Great, a hot matcha latte it is! Would you like any specific milk, like almond, oat, or regular dair...
+
+
+Repair 2:
+  Turns: [29, 30]
+  Initiation: LI
+  Resolution: R
+  Trigger: self-correction – learner corrects own previous utterance
+  Evidence: The learner explicitly self-corrects their order from an initial hesitation ('um, no') to 'a banana bread' in turn 29. The bot successfully processes this corrected order in turn 30, resolving the self-correction.
+
+  Turn Content:
+    Turn 29 [LEARNER]: “Yes, she'll have a slice of, um, no, a banana bread with gluten-free and she'll like espresso.”...
+    Turn 30 [BOT]: Perfect! So that's one gluten-free banana bread and one espresso for your friend. That sounds lovely...
+
+
+Repair 3:
+  Turns: [35, 36]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner checking understanding – complex order change
+  Evidence: The learner makes a complex order change in turn 35 and explicitly asks for confirmation ('right?'). The bot confirms the entire order correctly in turn 36, resolving the learner's check for understanding.
+
+  Turn Content:
+    Turn 35 [LEARNER]: “Okay. Oh, thank you. So I'll change my cake to banana bread so that makes a combo with two banana b...
+    Turn 36 [BOT]: Yes, exactly! So that’s two slices of banana bread, one hot matcha latte, and one espresso. That def...
+
+
+Repair 4:
+  Turns: [53, 54]
+  Initiation: LI
+  Resolution: R
+  Trigger: vocabulary – did not understand word/phrase ('Arabica')
+  Evidence: The learner misinterprets 'Arabica beans' as 'sourced from Arabic' in turn 53. The bot clarifies the term in turn 54, and the conversation moves on, indicating the misunderstanding was resolved.
+
+  Turn Content:
+    Turn 53 [LEARNER]: “Oh, so your beans are sourced from Arabic.”...
+    Turn 54 [BOT]: Yes, exactly! We carefully select Arabica beans, known for their smooth and complex flavor profiles....
+
+
+Repair 5:
+  Turns: [57, 58]
+  Initiation: BI
+  Resolution: R
+  Trigger: bot misunderstanding – misinterpretation of 'without milk'
+  Evidence: The learner requests a drink 'without milk' in turn 57. The bot misinterprets this by suggesting 'use oat milk for a creamy, dairy-free option' in turn 58. This bot misunderstanding is immediately addressed by the learner in the subsequent turn, leading to its resolution.
+
+  Turn Content:
+    Turn 57 [LEARNER]: “Okay, great. Thank you. And I'm interested in trying something new today. Can you make it have stre...
+    Turn 58 [BOT]: Absolutely, we can do that! I can definitely adjust the strength to be a bit lighter and use oat mil...
+
+
+Repair 6:
+  Turns: [59, 60, 61, 62, 63, 64]
+  Initiation: LI
+  Resolution: R
+  Trigger: learner clarification – specifying milk preference after bot's misinterpretation
+  Evidence: Following the bot's misinterpretation in turn 58, the learner explicitly corrects the bot's assumption of 'oat milk' and specifies 'almond milk' across turns 59, 61, and 63. The bot confirms the change to almond milk in turn 64, successfully resolving the clarification.
+
+  Turn Content:
+    Turn 59 [LEARNER]: “Oh, sorry, I'd like to change it to...”...
+    Turn 60 [BOT]: No problem at all! Just let me know what you’d...
+    Turn 61 [LEARNER]: “No, no, no, I'd want to change to AltMilk to...”...
+    Turn 62 [BOT]: Got it, no worries!...
+    Turn 63 [LEARNER]: “Almond milk, thank you.”...
+    Turn 64 [BOT]: Perfect! We’ll switch it over to almond milk for you. That sounds great. If there’s anything else yo...
+
+
+================================================================================
+FULL DIALOGUE
+================================================================================
+
+Turn   1 [LEARNER ]: “Hi, I would like to order a coffee today!”
+Turn   2 [BOT     ]: Sure! What kind of coffee would you like today — something like an espresso, latte, or cappuccino?
+Turn   3 [LEARNER ]: “Hi, could I please get a matcha latte?”
+Turn   4 [BOT     ]: Absolutely, a matcha latte sounds great! Would you like it hot or iced?
+Turn   5 [LEARNER ]: “HOTAS.”
+Turn   6 [BOT     ]: Great, a hot matcha latte it is! Would you like any specific milk, like almond, oat, or regular dairy?
+Turn   7 [LEARNER ]: “I would like alt-milk, thank you.”
+Turn   8 [BOT     ]: Perfect, oat milk it is! Would you like to add any sweetener or maybe some flavoring, like vanilla?
+Turn   9 [LEARNER ]: “No, thank you.”
+Turn  10 [BOT     ]: All right, that sounds perfect! So, just a hot matcha latte with oat milk. Is there anything else I can get for you today?
+Turn  11 [LEARNER ]: “Actually, I want to ask, is the banana bread gluten-free?”
+Turn  12 [BOT     ]: That's a great question! Let me check on that for you. Our banana bread does have a gluten-free option. Would you like to add a slice to your order?
+Turn  13 [LEARNER ]: “No, thanks. But I'd like a slice of cake.”
+Turn  14 [BOT     ]: Got it! We have a few cake options. Is there a particular type of cake you're in the mood for, like chocolate, cheesecake, or something else?
+Turn  15 [LEARNER ]: “I would like chocolate, thanks.”
+Turn  16 [BOT     ]: Awesome, a slice of chocolate cake it is! So, to recap, you’ll have a hot matcha latte with oat milk and a slice of chocolate cake. Anything else I can do for you?
+Turn  17 [LEARNER ]: “No thanks, and how long will that take?”
+Turn  18 [BOT     ]: It should be ready in just a few minutes, probably around three to five minutes at most. We'll have it fresh and waiting for you!
+Turn  19 [LEARNER ]: “Okay, thank you, and I'll wait near the door, thanks.”
+Turn  20 [BOT     ]: You're very welcome! I'll let you know as soon as it's ready. Thanks for your order, and we'll see you in just a bit!
+Turn  21 [LEARNER ]: “Thank you.”
+Turn  22 [BOT     ]: You're welcome!
+Turn  23 [LEARNER ]: “Sorry, hello, uh, do you, um, do you have anything vegan for my friend? How?”
+Turn  24 [BOT     ]: Of course! We do have several vegan options. For drinks, we have almond milk, oat milk, and soy milk. And for food, we have vegan pastries and snacks as well. Let me know what your friend might be interested in!
+Turn  25 [LEARNER ]: “Wait a minute. I'd like to check. Sorry.”
+Turn  26 [BOT     ]: No worries at all, take your time! Just let me know if you have any questions or need any help.
+Turn  27 [LEARNER ]: Transcript Unavailable
+Turn  28 [BOT     ]: Alright, sounds good! Just let me know what you'd like to pick, and I'll make sure everything’s set.
+Turn  29 [LEARNER ]: “Yes, she'll have a slice of, um, no, a banana bread with gluten-free and she'll like espresso.”
+Turn  30 [BOT     ]: Perfect! So that's one gluten-free banana bread and one espresso for your friend. That sounds lovely! Let me know if
+Turn  31 [LEARNER ]: “Yes.”
+Turn  32 [BOT     ]: Awesome, that’s all set then! I’ll get everything prepared for you and your friend. If you need anything else, just let me know!
+Turn  33 [LEARNER ]: “Um, yes, and is there a combo price or something else?”
+Turn  34 [BOT     ]: Absolutely! We do have combo deals, and if you get both the banana bread and the espresso, we can offer you a little discount. I’ll make sure to apply that for you! Let me know if you’d like any more details.
+Turn  35 [LEARNER ]: “Okay. Oh, thank you. So I'll change my cake to banana bread so that makes a combo with two banana breads and one matcha latte and one espresso, right?”
+Turn  36 [BOT     ]: Yes, exactly! So that’s two slices of banana bread, one hot matcha latte, and one espresso. That definitely gives you a nice combo! I’ll get that all ready for you. Let me know if there
+Turn  37 [LEARNER ]: “Thank you.”
+Turn  38 [BOT     ]: You're very welcome! If you need anything else at all, just let me know. Otherwise, I’ll have everything ready shortly!
+Turn  39 [LEARNER ]: “Okay, thank you very much. Have a good day!”
+Turn  40 [BOT     ]: You too! Thanks so much, and have a wonderful day. If you need anything else, just give me a shout. Take care!
+Turn  41 [LEARNER ]: “Hello, um, what do you recommend today?”
+Turn  42 [BOT     ]: Hello! Well, today we’ve got some delicious options. Our matcha latte is always a favorite, and our chocolate cake is really popular as well. If you’re in the mood for something savory, we’ve got some great vegan pastries too. Let me know what you’re in the mood for!
+Turn  43 [LEARNER ]: “Okay, and what is your most popular drink?”
+Turn  44 [BOT     ]: Our most popular drink is definitely the matcha latte, especially with oat milk. It's a big hit with our regulars! But if you're looking for something different, we also have some fantastic coffees and specialty teas. Let me know what sounds good to you!
+Turn  45 [LEARNER ]: “Okay, and what's the difference between a flat white and a latte?”
+Turn  46 [BOT     ]: Great question! So, a flat white typically has a stronger espresso-to-milk ratio and a velvety microfoam, making it a bit more intense and less milky than a latte. On the other hand, a latte has more steamed milk and a lighter layer of foam, giving it a creamier, smoother texture. So it really depends on how strong and creamy you like your coffee!
+Turn  47 [LEARNER ]: “Okay, appreciate your help. And I'd like to ask, is there a student discount?”
+Turn  48 [BOT     ]: Absolutely! We do offer a student discount. Just show your student ID when you order, and we’ll apply that discount for you. Let me know if you need any other info!
+Turn  49 [LEARNER ]: “Okay, thank you very much. Um, then.”
+Turn  50 [BOT     ]: You’re very welcome! And if you have any more questions or need anything else, just let me know. I’m here to help!
+Turn  51 [LEARNER ]: “Yes, and I'd like to ask you about what kind of beans do you use for your espresso for my friends.”
+Turn  52 [BOT     ]: Of course! We use a blend of high-quality, ethically sourced Arabica beans, and they’re roasted locally for maximum freshness and flavor. It gives the espresso a nice, rich, and balanced taste. If your friend has any preferences, just let me know!
+Turn  53 [LEARNER ]: “Oh, so your beans are sourced from Arabic.”
+Turn  54 [BOT     ]: Yes, exactly! We carefully select Arabica beans, known for their smooth and complex flavor profiles. It definitely makes a difference in the taste of our espresso!
+Turn  55 [LEARNER ]: “OK, and about brewing methods, I've never tried cold brew. What is like?”
+Turn  56 [BOT     ]: Great question! Cold brew is made by steeping coarsely ground coffee in cold water for an extended period, usually around 12 to 24 hours. The result is a smooth, less acidic coffee with a naturally sweet flavor. It’s really refreshing, especially over ice!
+Turn  57 [LEARNER ]: “Okay, great. Thank you. And I'm interested in trying something new today. Can you make it have strength and without milk?”
+Turn  58 [BOT     ]: Absolutely, we can do that! I can definitely adjust the strength to be a bit lighter and use oat milk for a creamy, dairy-free option. That sounds like a delicious choice! Let me know if there’s anything else you’d like to customize.
+Turn  59 [LEARNER ]: “Oh, sorry, I'd like to change it to...”
+Turn  60 [BOT     ]: No problem at all! Just let me know what you’d
+Turn  61 [LEARNER ]: “No, no, no, I'd want to change to AltMilk to...”
+Turn  62 [BOT     ]: Got it, no worries!
+Turn  63 [LEARNER ]: “Almond milk, thank you.”
+Turn  64 [BOT     ]: Perfect! We’ll switch it over to almond milk for you. That sounds great. If there’s anything else you’d like to tweak, just let me know!
+Turn  65 [LEARNER ]: “Thank you. No, thank you. That's it. That's it. All done, and have a good day.”
+Turn  66 [BOT     ]: You’re very welcome! I’m glad I could help. Have a fantastic day, and enjoy your drinks and treats! Take care!
+
+
+================================================================================
+END OF W1_T1
+================================================================================
+
+
+================================================================================
+DIALOGUE: W1_T2
+================================================================================
+
+Student ID: 18
+Task Topic: Booking a Restaurant Table
+Total Turns: 48
+Total Repairs: 5
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 4
+  Learner-Initiated (LI): 1
+  Resolved (R): 5
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [3, 4]
+  Initiation: BI
+  Resolution: R
+  Trigger: contextual error – incorrect time for 'tonight'
+  Evidence: The learner requests a table for 'tonight' at '7 a.m.' (T3). The bot identifies the logical inconsistency and corrects the time to '7 p.m.' (T4), which the learner implicitly accepts as the conversation continues with the corrected time.
+
+  Turn Content:
+    Turn 3 [LEARNER]: “Do you have a table available at 7 a.m.?”...
+    Turn 4 [BOT]: Let me check that for you! For tonight at 7 p.m., we do have availability for two. Would you like a ...
+
+
+Repair 2:
+  Turns: [17, 18]
+  Initiation: BI
+  Resolution: R
+  Trigger: lexical error – 'bookie' instead of 'booking/reservation'
+  Evidence: The learner uses the incorrect word 'bookie' (T17). The bot understands the intended meaning and implicitly corrects it by using 'reservation' (T18), which the learner accepts by continuing the conversation without further clarification.
+
+  Turn Content:
+    Turn 17 [LEARNER]: “Okay, sorry, can I add another person to the bookie?”...
+    Turn 18 [BOT]: Of course, no problem at all! Just let me know how many people you'd like to add, and I'll update th...
+
+
+Repair 3:
+  Turns: [23, 24]
+  Initiation: BI
+  Resolution: R
+  Trigger: unclear phrasing – fragmented grammar about allergies
+  Evidence: The learner's utterance about their friend's allergy is grammatically fragmented and potentially confusing (T23). The bot demonstrates understanding by rephrasing and confirming the specific allergy (mango) and offering accommodation (T24), resolving the ambiguity.
+
+  Turn Content:
+    Turn 23 [LEARNER]: “Okay, thank you. Because my friend is, next Monday, my friend is, is allergy for, she is allergic t...
+    Turn 24 [BOT]: Of course, I completely understand. We'll make sure to keep that in mind and ensure that there are n...
+
+
+Repair 4:
+  Turns: [25, 26]
+  Initiation: BI
+  Resolution: R
+  Trigger: phonetic/lexical error – 'whitelist' instead of 'wine list'
+  Evidence: The learner asks to see the 'whitelist' (T25). The bot correctly interprets this as 'wine list' (T26) and offers to send it, resolving the phonetic/lexical confusion.
+
+  Turn Content:
+    Turn 25 [LEARNER]: “And for tonight and next Monday, can I see the whitelist in advance?”...
+    Turn 26 [BOT]: Absolutely! I can definitely send you the wine list in advance so you can take a look and choose you...
+
+
+Repair 5:
+  Turns: [35, 37, 38]
+  Initiation: LI
+  Resolution: R
+  Trigger: self-correction – learner changes intent/confirms after saying they couldn't
+  Evidence: The learner initially asks if someone could call them later if they 'can't confirm the set menu now' (T35). However, in T37, the learner self-corrects by stating 'For now, I'm just ordering for a set meal for two people.' The bot acknowledges this new information and proceeds (T38), indicating the self-correction was understood and accepted.
+
+  Turn Content:
+    Turn 35 [LEARNER]: “Okay, so if I can't confirm the set menu now, would somebody be able to call me later today?”...
+    Turn 37 [LEARNER]: “For now, I'm just ordering for a set meal for two people.”...
+    Turn 38 [BOT]: Got it! That sounds great. I’ll make sure everything is arranged for the set meal for two, and if yo...
+
+
+================================================================================
+FULL DIALOGUE
+================================================================================
+
+Turn   1 [LEARNER ]: I'd like to book a table for two tonight.”
+Turn   2 [BOT     ]: Absolutely! I'd be happy to help with that. Could you let me know what time you'd like to reserve the table and any special requests you might have?
+Turn   3 [LEARNER ]: “Do you have a table available at 7 a.m.?”
+Turn   4 [BOT     ]: Let me check that for you! For tonight at 7 p.m., we do have availability for two. Would you like a table indoors or perhaps by the window? Let me know!
+Turn   5 [LEARNER ]: “I would like to buy the window. Thank you.”
+Turn   6 [BOT     ]: Perfect! I’ll reserve a window table for you at 7 p.m. for two guests. If you have any other requests or need to make changes, just let me know. Otherwise, we’ll see you tonight!
+Turn   7 [LEARNER ]: “Okay, and I would like to book another table for four people for next Monday.”
+Turn   8 [BOT     ]: Absolutely, I can do that! For next Monday, I’ll reserve a table for four people. Could you let me know what time you’d prefer, and if you have any special preferences or requests for that reservation?
+Turn   9 [LEARNER ]: “Yes, I think it's maybe at 6.30 and can we sit outside and can we, can I request, can I request outdoor seating?”
+Turn  10 [BOT     ]: Of course! I’ll reserve an outdoor table for four at  p.m. next Monday. That sounds wonderful. If you have any other details or requests, just let me know, and I’ll make sure everything’s set for you!
+Turn  11 [LEARNER ]: “Yes, and I also, because next Monday is my friend's birthday, so I'm looking for my friend's birthday, do you offer any singing or decorations or can we bring our own cake for the celebration?”
+Turn  12 [BOT     ]: That sounds lovely! We can definitely help make it special. We do offer birthday decorations and can arrange for a little celebration, and you’re also welcome to bring your own cake if you prefer. Just let us know the details, and we’ll make sure everything’s arranged perfectly for your friend’s birthday!
+Turn  13 [LEARNER ]: “And if I bring my own cake, is there possible to help us to put it in your refrigerator for that?”
+Turn  14 [BOT     ]: Absolutely, we can store your cake in our refrigerator until it’s time for dessert. Just let us know when you arrive, and we’ll make sure it’s kept fresh and ready for the celebration. We’ll take care of everything for you!
+Turn  15 [LEARNER ]: “Thank you. And, oh, by the way, this, tonight, this is our wedding anniversary. Do you have a quieter or more romantic table?”
+Turn  16 [BOT     ]: Oh, congratulations on your anniversary! We’d love to make it special for you. We can definitely arrange a quieter, more intimate table, perhaps near a cozy corner or by a window with a nice view. Just let us know your preferences, and we’ll make sure it’s a beautiful evening for you both!
+Turn  17 [LEARNER ]: “Okay, sorry, can I add another person to the bookie?”
+Turn  18 [BOT     ]: Of course, no problem at all! Just let me know how many people you'd like to add, and I'll update the reservation for you. We’ll make sure everything’s arranged perfectly!
+Turn  19 [LEARNER ]: “Yes, maybe I would like to add two more people in next Monday.”
+Turn  20 [BOT     ]: Perfect! I’ll go ahead and update your reservation for six people next Monday at  p.m. If there’s anything else you need or any other adjustments, just let me know, and I’ll make sure it’s all set!
+Turn  21 [LEARNER ]: “Okay, I'm going to ask you about menu or some directory needs. Is your menu online?”
+Turn  22 [BOT     ]: Yes, absolutely! Our menu is available online, and I can also share a link with you if you’d like. And if you have any specific dietary needs or questions, feel free to let me know, and I'll help you find the perfect options!
+Turn  23 [LEARNER ]: “Okay, thank you. Because my friend is, next Monday, my friend is, is allergy for, she is allergic to, allergic, she's allergic to mango. So do you care for food, and another different food allergies? No, exceptions.”
+Turn  24 [BOT     ]: Of course, I completely understand. We'll make sure to keep that in mind and ensure that there are no mango-related ingredients in any of the dishes. If there are any other allergies or dietary needs, just let us know, and we’ll accommodate everything to keep your friend safe and comfortable.
+Turn  25 [LEARNER ]: “And for tonight and next Monday, can I see the whitelist in advance?”
+Turn  26 [BOT     ]: Absolutely! I can definitely send you the wine list in advance so you can take a look and choose your favorites. Just let me know the best way to share it with you, and I’ll make sure you have everything you need ahead of time!
+Turn  27 [LEARNER ]: “Maybe I'll go with email. I'll give you my email.”
+Turn  28 [BOT     ]: That sounds perfect! Feel free to share your email address, and I'll send over the wine list right away. If there's anything else you need, just let me know!
+Turn  29 [LEARNER ]: “Yes, my email is nacuni123 at gmail.com.”
+Turn  30 [BOT     ]: Great, thank you for that! I’ll send the wine list to that email shortly. If you have any other questions or need further assistance, just let me know. Looking forward to making everything perfect for you!
+Turn  31 [LEARNER ]: “Thank you all. Sorry, I'd like to ask you some extensive questions, like, is there any flexibility if we arrive 15 minutes late?”
+Turn  32 [BOT     ]: Absolutely, we can definitely be flexible. If you arrive about 15 minutes late, we’ll do our best to hold your table. If anything changes, just give us a quick call, and we’ll make sure everything is arranged smoothly for you. Just let us know!
+Turn  33 [LEARNER ]: “Okay, so you'd be able to hold the booking if we are delayed for 10 to 15 minutes, right?”
+Turn  34 [BOT     ]: Yes, exactly! We’ll hold your reservation for about 15 minutes without any trouble. If you’re running a bit later than that, just let us know in advance, and we’ll do our best to accommodate you. We want to make sure you have a wonderful experience!
+Turn  35 [LEARNER ]: “Okay, so if I can't confirm the set menu now, would somebody be able to call me later today?”
+Turn  36 [BOT     ]: Absolutely! We can arrange for someone to give you a call at a convenient time later in the day. Just let us know the best time and the contact number, and we’ll make sure everything’s covered for you. We’re here to help!
+Turn  37 [LEARNER ]: “For now, I'm just ordering for a set meal for two people.”
+Turn  38 [BOT     ]: Got it! That sounds great. I’ll make sure everything is arranged for the set meal for two, and if you have any specific preferences or questions, just let me know. I’m here to help make it all seamless and enjoyable for you!
+Turn  39 [LEARNER ]: “Okay, and would it be possible to separate the bill for each guest next Monday?”
+Turn  40 [BOT     ]: Absolutely, we can definitely arrange separate bills for each guest. Just let us know when you arrive, and we’ll make sure that everything is organized accordingly for next Monday. If there’s anything else you need, just let me know!
+Turn  41 [LEARNER ]: “We would like to bring a small gift for someone next Monday, so are there any policies we should know about?”
+Turn  42 [BOT     ]: That sounds lovely! We’re more than happy to accommodate that. Generally, we just ask that any gifts are small and not disruptive to other guests. If you let us know in advance, we can also help with any special arrangements or presentation. Just keep us posted, and we’ll make it a wonderful experience!
+Turn  43 [LEARNER ]: “Okay, thank you and I'll let you know as soon as possible and I'll just give you the code and thanks for this. Thanks for the booking.”
+Turn  44 [BOT     ]: You’re very welcome! I’m glad I could help. Just let me know whenever you have more details, and I’ll make sure everything’s perfect for you. Looking forward to it, and I hope you have a fantastic time!
+Turn  45 [LEARNER ]: “Okay, thank you. Thank you for your time.”
+Turn  46 [BOT     ]: You're very welcome! It’s been my pleasure. If you need anything else, just let me know. Have a wonderful day, and take care!
+Turn  47 [LEARNER ]: “Okay, thank you. Have a wonderful day. Bye.”
+Turn  48 [BOT     ]: Thank you so much! You have a fantastic day as well. Bye for now! Voice chat ended 9m 51s
+
+
+================================================================================
+END OF W1_T2
+================================================================================
+
+
+================================================================================
+DIALOGUE: W1_T3
+================================================================================
+
+Student ID: 18
+Task Topic: Returning or Exchanging Clothes
+Total Turns: 17
+Total Repairs: 1
+
+REPAIR SUMMARY:
+--------------------------------------------------------------------------------
+  Bot-Initiated (BI): 0
+  Learner-Initiated (LI): 1
+  Resolved (R): 1
+  Unresolved: 0
+
+REPAIR DETAILS:
+--------------------------------------------------------------------------------
+
+Repair 1:
+  Turns: [9]
+  Initiation: LI
+  Resolution: R
+  Trigger: self-correction – learner corrects own previous utterance
+  Evidence: The learner starts an utterance with an incomplete phrase ('if I buy this as a'), then pauses and rephrases their thought process ('yes, I take this out, maybe I think this is better') before formulating a clear question. This is a self-correction of an unclear initial utterance, initiated by the learner and successfully resolved as the question becomes clear.
+
+  Turn Content:
+    Turn 9 [LEARNER]: “Oh, if I buy this as a, yes, I take this out, maybe I think this is better. And if I buy this as a ...
+
+
+================================================================================
+FULL DIALOGUE
+================================================================================
+
+Turn   1 [LEARNER ]: Task three
+Turn   2 [LEARNER ]: Hello, I bought this shirt last week but it doesn’t fit. I have the receipt here. So, could I exchange it for a smaller size?”
+Turn   3 [LEARNER ]: “Thank you. Because it is too large for me and I think there is a little bit stain in the sleeve.”
+Turn   4 [LEARNER ]: “Okay, so I want to ask more further information, like how many days do I have to return an item?”
+Turn   5 [LEARNER ]: “Okay, so, okay, let me take a look. So, can I exchange this for something else in the same price range?”
+Turn   6 [LEARNER ]: “Okay, let me take a look around the shop.”
+Turn   7 [LEARNER ]: “Okay, thank you.”
+Turn   8 [LEARNER ]: “OK, then.”
+Turn   9 [LEARNER ]: “Oh, if I buy this as a, yes, I take this out, maybe I think this is better. And if I buy this as a gift, can the person return it without a receipt?”
+Turn  10 [LEARNER ]: “Okay, thank you. And my husband bought another jumper in the shop and I noticed a loose seam. Could you fix it here or should I return it?”
+Turn  11 [LEARNER ]: “Okay, so can I return this if I've already taken off the tax?”
+Turn  12 [LEARNER ]: “Okay, thank you. And...”
+Turn  13 [LEARNER ]: “Yes, I bought this”
+Turn  14 [LEARNER ]: “I bought this electronic device on your online shop. And what happens if the item is damaged when I open it?”
+Turn  15 [LEARNER ]: “Okay, thank you. And of course, because this is near Christmas, right, so do you offer extended returns for Christmas purchases?”
+Turn  16 [LEARNER ]: “That's perfect. Thank you very much, and I'm so sorry for asking so many questions.”
+Turn  17 [LEARNER ]: “Okay, thank you, and I appreciate you explaining that policy, and thanks for your help. See you!”
+
+
+================================================================================
+END OF W1_T3
+================================================================================
