@@ -3,7 +3,7 @@ Dialogue parsing utilities to extract and normalize speaker turns.
 """
 import re
 import json
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 from pathlib import Path
 
 
@@ -566,7 +566,7 @@ class DialogueParser:
         
         return turns
     
-    def split_into_tasks(self, text: str, week_num: int) -> List[Tuple[str, str]]:
+    def split_into_tasks(self, text: str, week_num: int, expected_tasks: Optional[int] = None) -> List[Tuple[str, str]]:
         """
         Split text into separate dialogue tasks.
         Returns list of (task_name, task_text) tuples.
@@ -574,11 +574,15 @@ class DialogueParser:
         """
         tasks = []
         
-        # Look for common task markers - prioritize "Task 1", "Task 2", "Task 3"
-        # Also handle "Task one", "Task two", "Task three"
-        # Pattern 1: "Task 1:", "Task 2:", "Task 3:" etc.
+        # Look for common task markers - handle multiple formats:
+        # - "TASK 1：", "TASK 2：" (full-width colon, uppercase)
+        # - "Task 1:", "Task 2:", "Task 3:" (regular colon)
+        # - "task 1", "task 2", "task 3" (lowercase, no colon)
+        # - "Tasks:", "TASKS:" etc.
+        # Pattern handles: Task/TASK/task + number + optional colon (regular or full-width) + optional newline
+        # Also handles typos like "TAKS" (missing S)
         task_pattern = re.compile(
-            r'(?:Task|Tarefa|Exercise|Exercício|Activity|Atividade)\s*(?:(\d+)|(one|two|three|1|2|3))[:\.]?\s*\n',
+            r'(?:Task|TASK|TAKS|Tarefa|Exercise|Exercício|Activity|Atividade|Tasks|TASKS)\s*(?:(\d+)|(one|two|three|1|2|3))[：:\.]?\s*\n?',
             re.IGNORECASE | re.MULTILINE
         )
         
@@ -588,7 +592,9 @@ class DialogueParser:
         # Find all task markers
         task_matches = list(task_pattern.finditer(text))
         
-        if len(task_matches) >= 3:
+        target_task_count = expected_tasks or 3
+
+        if len(task_matches) >= target_task_count:
             # We have at least 3 tasks - use them
             split_points = []
             for match in task_matches:
@@ -633,7 +639,7 @@ class DialogueParser:
                 # Remove the task marker from the text
                 task_text = re.sub(r'^(?:Task|Tarefa)\s*\d+[:\.]?\s*', '', task_text, flags=re.IGNORECASE | re.MULTILINE)
                 if len(task_text) > 50:
-                    final_task_num = split_points[-1][1] if len(split_points) < 3 else 3
+                    final_task_num = split_points[-1][1] if len(split_points) < target_task_count else target_task_count
                     tasks.append((f"T{final_task_num}", task_text))
         
         elif len(task_matches) > 0:
@@ -692,26 +698,39 @@ class DialogueParser:
                             tasks.append((f"T{i+1}", task_text))
         
         # Ensure we have exactly 3 tasks
-        if len(tasks) > 3:
-            # Take first 3
-            tasks = tasks[:3]
-        elif len(tasks) < 3 and len(tasks) > 0:
+        if len(tasks) > target_task_count:
+            # Take first N
+            tasks = tasks[:target_task_count]
+        elif target_task_count and len(tasks) < target_task_count and len(tasks) > 0:
             # If we have fewer than 3, we'll use what we have
             # But ideally we should have 3
             pass
         
         return tasks
     
-    def save_dialogue_json(self, turns: List[Dict], output_path: str, student_id: Optional[int] = None) -> None:
+    def save_dialogue_json(
+        self,
+        turns: List[Dict],
+        output_path: str,
+        student_id: Optional[int] = None,
+        metadata: Optional[Dict[str, Any]] = None
+    ) -> None:
         """Save dialogue turns to JSON file."""
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         # Add metadata if student_id is provided
-        output_data = {
-            'student_id': student_id,
-            'turns': turns
-        } if student_id else turns
+        if metadata:
+            output_data = {**metadata, 'turns': turns}
+            if student_id and 'student_id' not in output_data:
+                output_data['student_id'] = student_id
+        elif student_id is not None:
+            output_data = {
+                'student_id': student_id,
+                'turns': turns
+            }
+        else:
+            output_data = turns
         
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)

@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S9_W3_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      3,
+      4
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "self-correction – learner requests to repeat",
+    "evidence_summary": "The learner asks to say something again in turn 3, indicating a need to repeat or clarify their previous statement. The bot encourages the learner to take their time and repeat in turn 4, resolving the issue."
+  },
+  {
+    "dialogue_id": "S9_W3_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      17,
+      18
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "self-correction – learner corrects own previous utterance",
+    "evidence_summary": "In turn 17, the learner corrects themselves by stating that it is not their house and they do not know the company, which clarifies the previous misunderstanding. The bot acknowledges this correction in turn 18, resolving the issue."
+  }
+]

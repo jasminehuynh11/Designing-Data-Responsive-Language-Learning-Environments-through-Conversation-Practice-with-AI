@@ -35,7 +35,7 @@ def create_dialogue_id(file_path: Path) -> str:
     return f"{filename}_S{student_id}"
 
 
-def process_dialogue_file(dialogue_file: Path, model=None) -> bool:
+def process_dialogue_file(dialogue_file: Path, repairs_dir: Path, model=None) -> bool:
     """
     Process a single dialogue file for repair detection.
     
@@ -73,7 +73,8 @@ def process_dialogue_file(dialogue_file: Path, model=None) -> bool:
                 valid_repairs.append(repair)
         
         # Save repairs
-        output_file = dialogue_file.parent / f"{dialogue_file.stem}_repairs.json"
+        repairs_dir.mkdir(parents=True, exist_ok=True)
+        output_file = repairs_dir / f"{dialogue_file.stem}_repairs.json"
         save_repair_annotations(valid_repairs, output_file)
         
         print(f"  Found {len(valid_repairs)} repair sequence(s)")
@@ -95,7 +96,9 @@ def main():
     
     # Get processed dialogue files
     processed_dir = Path('data/processed')
-    dialogue_files = sorted(processed_dir.glob('W*_T*.json'))
+    legacy_files = set(processed_dir.glob('W*_T*.json'))
+    new_files = set(processed_dir.glob('S*_W*_T*.json'))
+    dialogue_files = sorted(legacy_files | new_files)
     
     # Filter out repair files
     dialogue_files = [f for f in dialogue_files if '_repairs.json' not in f.name]
@@ -105,6 +108,8 @@ def main():
         return
     
     print(f"\nFound {len(dialogue_files)} dialogue file(s) to process")
+    repairs_dir = Path('data/repairs')
+    repairs_dir.mkdir(parents=True, exist_ok=True)
     
     # Get Gemini model (reuse for all dialogues)
     try:
@@ -120,7 +125,7 @@ def main():
     failed = 0
     
     for dialogue_file in dialogue_files:
-        if process_dialogue_file(dialogue_file, model=model):
+        if process_dialogue_file(dialogue_file, repairs_dir=repairs_dir, model=model):
             successful += 1
         else:
             failed += 1

@@ -1,9 +1,9 @@
 trigger_category,count
-Comprehension,14
-Vocabulary/Lexical,6
-ASR/Pronunciation,5
-Other,5
-Self-Correction,4
-Unclear Phrasing,4
-Bot Misunderstanding,2
+Vocabulary/Lexical,96
+Comprehension,43
+ASR/Pronunciation,35
+Self-Correction,34
+Other,18
+Unclear Phrasing,9
+Bot Misunderstanding,6
 Contextual Error,1

@@ -1,0 +1,32 @@
+{
+  "validation_date": "2025-11-29",
+  "overall_status": "EXCELLENT",
+  "completeness": {
+    "total_dialogues": 218,
+    "with_repair_files": 218,
+    "missing_repair_files": 0,
+    "completion_rate": "100.0%"
+  },
+  "structure_validation": {
+    "total_repairs": 235,
+    "valid_repairs": 214,
+    "invalid_repairs": 21,
+    "validity_rate": "91.1%"
+  },
+  "content_validation": {
+    "dialogues_validated": 94,
+    "total_repairs": 235,
+    "issues_found": 6,
+    "warnings": 154,
+    "validation_score": "96.09%"
+  },
+  "issues_summary": {
+    "critical_files": 1,
+    "minor_files": 6,
+    "total_files_with_issues": 7
+  },
+  "recommendations": [
+    "Fix turn index errors in repair files",
+    "✅ All dialogues have repair files - ready for analysis"
+  ]
+}

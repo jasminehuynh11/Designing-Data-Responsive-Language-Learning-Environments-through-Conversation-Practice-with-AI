@@ -1,0 +1,173 @@
+{
+  "total_files": 10,
+  "files_with_repairs": 2,
+  "files_without_repairs": 8,
+  "total_repairs": 7,
+  "initiation_distribution": {
+    "LI": 4,
+    "BI": 3
+  },
+  "resolution_distribution": {
+    "R": 7,
+    "U-A": 0,
+    "U-P": 0
+  },
+  "trigger_categories": {
+    "pronunciation/ASR": 3,
+    "vocabulary": 4
+  },
+  "files": [
+    {
+      "file": "S12_W1_T1",
+      "turns": 74,
+      "repairs_count": 4,
+      "repairs": [
+        {
+          "dialogue_id": "S12_W1_T1",
+          "repair_id": 1,
+          "turn_indices": [
+            3,
+            4
+          ],
+          "initiation": "BI",
+          "resolution": "R",
+          "trigger": "pronunciation/ASR – misrecognition of learner speech",
+          "evidence_summary": "The learner's utterance in turn 3 contains 'Merrick channel', which is likely a misrecognition or mispronunciation of 'Americano'. The bot correctly interprets the intent as 'plain Americano' in turn 4, resolving the issue."
+        },
+        {
+          "dialogue_id": "S12_W1_T1",
+          "repair_id": 2,
+          "turn_indices": [
+            13,
+            14
+          ],
+          "initiation": "BI",
+          "resolution": "R",
+          "trigger": "pronunciation/ASR – misrecognition of learner speech",
+          "evidence_summary": "In turn 13, the learner mentions 'cat Americano', which is likely a misrecognition of 'that Americano'. The bot correctly interprets the question about the type of beans used for the Americano in turn 14, resolving the issue."
+        },
+        {
+          "dialogue_id": "S12_W1_T1",
+          "repair_id": 3,
+          "turn_indices": [
+            28,
+            29
+          ],
+          "initiation": "BI",
+          "resolution": "R",
+          "trigger": "pronunciation/ASR – misrecognition of learner speech",
+          "evidence_summary": "The learner's request in turn 28 for 'doctor outdoor sitting' is likely a mispronunciation or misrecognition. The bot interprets this as 'outdoor seating with a nice view of the street' in turn 29, resolving the issue."
+        },
+        {
+          "dialogue_id": "S12_W1_T1",
+          "repair_id": 4,
+          "turn_indices": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "initiation": "LI",
+          "resolution": "R",
+          "trigger": "vocabulary – learner confused about size conversion",
+          "evidence_summary": "The learner expresses confusion about the difference between Chinese and Australian sizes in turn 57. The bot explains the conversion in turn 58, and the learner provides their Chinese size in turn 59. The bot then provides the equivalent Australian size in turn 60, resolving the confusion."
+        }
+      ]
+    },
+    {
+      "file": "S12_W2_T1",
+      "turns": 46,
+      "repairs_count": 3,
+      "repairs": [
+        {
+          "dialogue_id": "S12_W2_T1",
+          "repair_id": 1,
+          "turn_indices": [
+            7,
+            8
+          ],
+          "initiation": "LI",
+          "resolution": "R",
+          "trigger": "vocabulary – learner did not understand bot's question",
+          "evidence_summary": "The learner indicates they did not understand the bot's previous question in turn 7. The bot clarifies the question in turn 8, and the conversation continues smoothly, indicating the issue was resolved."
+        },
+        {
+          "dialogue_id": "S12_W2_T1",
+          "repair_id": 2,
+          "turn_indices": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "initiation": "LI",
+          "resolution": "R",
+          "trigger": "vocabulary – learner's question about 'up-to-date time' and 'period time'",
+          "evidence_summary": "The learner asks about the 'up-to-date time' and 'period time' in turns 11 and 13, which are unclear. The bot provides a specific appointment time in turn 14, and the learner acknowledges in turn 15, resolving the confusion."
+        },
+        {
+          "dialogue_id": "S12_W2_T1",
+          "repair_id": 3,
+          "turn_indices": [
+            17,
+            18,
+            19
+          ],
+          "initiation": "LI",
+          "resolution": "R",
+          "trigger": "vocabulary – learner asks for specific appointment time",
+          "evidence_summary": "The learner asks for the specific time of the appointment in turn 17. The bot provides the exact time in turn 18, and the learner confirms understanding in turn 19, resolving the issue."
+        }
+      ]
+    },
+    {
+      "file": "S12_W2_T2",
+      "turns": 36,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S12_W2_T3",
+      "turns": 44,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S12_W3_T1",
+      "turns": 28,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S12_W3_T2",
+      "turns": 28,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S12_W4_T1",
+      "turns": 38,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S12_W4_T2",
+      "turns": 42,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S13_W1_T1",
+      "turns": 29,
+      "repairs_count": 0,
+      "repairs": []
+    },
+    {
+      "file": "S13_W1_T2",
+      "turns": 68,
+      "repairs_count": 0,
+      "repairs": []
+    }
+  ]
+}

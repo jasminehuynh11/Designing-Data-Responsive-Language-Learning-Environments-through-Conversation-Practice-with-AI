@@ -1,0 +1,729 @@
+{
+  "summary": {
+    "total_dialogues": 206,
+    "with_repair_files": 206,
+    "with_repairs": 88,
+    "without_repairs": 118,
+    "missing_repair_files": 0,
+    "total_repairs": 229,
+    "valid_repairs": 229,
+    "invalid_repairs": 0,
+    "files_with_issues": 0,
+    "files_with_warnings": 118,
+    "issues": {},
+    "warnings": {
+      "general": 118
+    }
+  },
+  "files_with_issues": [],
+  "files_with_warnings": [
+    {
+      "dialogue": "S12_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S12_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S13_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S13_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S13_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S13_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S13_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S13_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S14_W4_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S16_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S16_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S16_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S17_W4_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S1_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S20_W4_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S21_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S21_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S21_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S21_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W3_T4",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S23_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S24_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S24_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S24_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S25_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S25_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S25_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S25_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S25_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S25_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S28_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S28_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S28_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S28_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S28_W4_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S2_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S2_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S2_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S2_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S2_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S30_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S34_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S34_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S34_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W1_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S40_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S5_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S5_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S5_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S7_W1_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S7_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S7_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W1_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W2_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W3_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W3_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W3_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W4_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W4_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S8_W4_T3",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S9_W2_T1",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    },
+    {
+      "dialogue": "S9_W2_T2",
+      "warnings": [
+        "Repair file exists but contains no repairs (empty array)"
+      ]
+    }
+  ]
+}

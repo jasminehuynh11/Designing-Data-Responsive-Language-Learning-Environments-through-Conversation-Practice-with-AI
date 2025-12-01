@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S17_W1_T2",
+    "repair_id": 1,
+    "turn_indices": [
+      26,
+      27
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner says 'convalescent' in turn 26, which is likely a mispronunciation or misrecognition of 'croissant'. The bot interprets this as 'croissant' in turn 27 and confirms the order, resolving the issue."
+  },
+  {
+    "dialogue_id": "S17_W1_T2",
+    "repair_id": 2,
+    "turn_indices": [
+      36,
+      37
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner says 'I’m Leota' in turn 36, but the bot responds with 'Layota' in turn 37. Despite the misrecognition, the bot continues with the reservation process, indicating that the issue did not hinder the conversation."
+  }
+]

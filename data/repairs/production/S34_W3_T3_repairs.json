@@ -1,0 +1,15 @@
+[
+  {
+    "dialogue_id": "S34_W3_T3",
+    "repair_id": 1,
+    "turn_indices": [
+      17,
+      18,
+      19
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand 'urgency'",
+    "evidence_summary": "The learner asks for clarification on the term 'Gogurjeet' in turn 17, which seems to be a misunderstanding of the bot's previous question about urgency. The bot clarifies in turn 18, and the learner responds appropriately in turn 19, indicating the issue is resolved."
+  }
+]

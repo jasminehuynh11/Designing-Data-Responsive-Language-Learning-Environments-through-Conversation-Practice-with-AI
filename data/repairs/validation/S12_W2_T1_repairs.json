@@ -1,0 +1,27 @@
+[
+  {
+    "dialogue_id": "S12_W2_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      7,
+      8
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand bot's question",
+    "evidence_summary": "The learner indicates they did not understand the bot's previous question in turn 7. The bot clarifies the question in turn 8, and the conversation continues smoothly, indicating the issue was resolved."
+  },
+  {
+    "dialogue_id": "S12_W2_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      17,
+      18,
+      19
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand the appointment time",
+    "evidence_summary": "The learner asks for clarification about the appointment time in turn 17. The bot provides the specific time in turn 18, and the learner acknowledges understanding in turn 19, resolving the issue."
+  }
+]

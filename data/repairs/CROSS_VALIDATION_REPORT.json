@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total_dialogues": 218,
+    "dialogues_with_repairs": 94,
+    "total_repairs": 235,
+    "total_issues": 6,
+    "total_warnings": 154,
+    "files_with_issues": 1,
+    "files_with_warnings": 54,
+    "average_validation_score": 0.9608510638297875
+  },
+  "files_with_issues": [
+    {
+      "dialogue": "S12_W1_T1",
+      "repair_count": 4,
+      "issues": [
+        "Repair 3: Turn index 28 exceeds maximum turn 22 in dialogue",
+        "Repair 3: Turn index 29 exceeds maximum turn 22 in dialogue",
+        "Repair 4: Turn index 57 exceeds maximum turn 22 in dialogue",
+        "Repair 4: Turn index 58 exceeds maximum turn 22 in dialogue",
+        "Repair 4: Turn index 59 exceeds maximum turn 22 in dialogue",
+        "Repair 4: Turn index 60 exceeds maximum turn 22 in dialogue"
+      ],
+      "warnings": [
+        "Repair 1: Marked as BI but first turn (3) is from learner",
+        "Repair 1: Trigger mentions repair but no obvious repair keywords found in turns",
+        "Repair 2: Marked as BI but first turn (13) is from learner",
+        "Repair 2: Trigger mentions repair but no obvious repair keywords found in turns",
+        "Repair 3: Repair has fewer than 2 valid turns (0), may be incomplete",
+        "Repair 3: Trigger mentions repair but no obvious repair keywords found in turns",
+        "Repair 3: Repair ends near dialogue end (turn 29/22), resolution may be uncertain",
+        "Repair 3: Evidence summary doesn't seem to reference actual turn content",
+        "Repair 4: Repair has fewer than 2 valid turns (0), may be incomplete",
+        "Repair 4: Trigger mentions repair but no obvious repair keywords found in turns",
+        "Repair 4: Repair ends near dialogue end (turn 60/22), resolution may be uncertain",
+        "Repair 4: Evidence summary doesn't seem to reference actual turn content"
+      ],
+      "validation_score": 0.15999999999999992
+    }
+  ]
+}

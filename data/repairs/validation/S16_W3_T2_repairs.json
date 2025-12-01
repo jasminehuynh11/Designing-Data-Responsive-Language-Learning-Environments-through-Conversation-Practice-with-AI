@@ -1,0 +1,43 @@
+[
+  {
+    "dialogue_id": "S16_W3_T2",
+    "repair_id": 1,
+    "turn_indices": [
+      20,
+      21,
+      22
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand bot's question",
+    "evidence_summary": "The learner asks the bot to repeat its question in turn 20, indicating a lack of understanding. The bot repeats the question in turn 21, and the learner responds appropriately in turn 22, resolving the issue."
+  },
+  {
+    "dialogue_id": "S16_W3_T2",
+    "repair_id": 2,
+    "turn_indices": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand bot's question",
+    "evidence_summary": "The learner asks for repetition in turn 26, indicating they did not understand the bot's question. The bot repeats the question in turn 27, but the learner asks for another repetition in turn 28. The bot simplifies the question in turn 29, and the learner responds in turn 30, resolving the issue."
+  },
+  {
+    "dialogue_id": "S16_W3_T2",
+    "repair_id": 3,
+    "turn_indices": [
+      81,
+      82,
+      83
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand bot's statement",
+    "evidence_summary": "The learner asks the bot to repeat its statement in turn 81, indicating a lack of understanding. The bot repeats the information in turn 82, and the learner acknowledges in turn 83, resolving the issue."
+  }
+]

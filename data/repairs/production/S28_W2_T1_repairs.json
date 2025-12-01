@@ -1,0 +1,28 @@
+[
+  {
+    "dialogue_id": "S28_W2_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "self-correction – learner corrects own previous utterance",
+    "evidence_summary": "In turn 14, the learner's response 'OpenAI and DALL·E would be great for me' is unclear in the context of scheduling an appointment. The bot proceeds with scheduling at 10 a.m. in turn 15. The learner then corrects the time to 9 a.m. in turn 16, and the bot acknowledges and confirms the change in turn 17, resolving the issue."
+  },
+  {
+    "dialogue_id": "S28_W2_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      24,
+      25
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "bot misunderstanding – irrelevant interpretation of 'train'",
+    "evidence_summary": "In turn 24, the learner says 'Can I train you for 2 p.m.?' which is likely a miscommunication. The bot interprets this as a request to reschedule the appointment to 2 p.m. and confirms the change in turn 25, resolving the misunderstanding."
+  }
+]

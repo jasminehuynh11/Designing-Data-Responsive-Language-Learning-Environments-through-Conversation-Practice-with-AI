@@ -1,0 +1,27 @@
+[
+  {
+    "dialogue_id": "S25_W4_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      8,
+      9
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner's use of 'suit'",
+    "evidence_summary": "The learner asks 'Is it suit?' in turn 8, which is a non-standard phrasing. The bot interprets this as a question about the feasibility of studying overseas and responds affirmatively in turn 9, resolving the issue."
+  },
+  {
+    "dialogue_id": "S25_W4_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      24,
+      25,
+      26
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "clarification request – learner asks for repetition",
+    "evidence_summary": "In turn 24, the learner asks the bot to repeat its previous statement. The bot complies in turn 25, and the learner acknowledges with 'Thank you' in turn 26, indicating the issue is resolved."
+  }
+]

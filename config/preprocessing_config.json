@@ -1,0 +1,277 @@
+{
+  "naming": {
+    "output_pattern": "S{student_id}_W{week}_T{task}.json",
+    "processed_dir": "data/processed"
+  },
+  "defaults": {
+    "tasks_per_week": 3,
+    "label_set": "english_standard",
+    "skip_keywords": [
+      "transcript was not available"
+    ]
+  },
+  "label_sets": {
+    "english_standard": {
+      "learner": [
+        "You said:",
+        "You:",
+        "Student:",
+        "Me:",
+        "User:",
+        "Julieth:",
+        "J:",
+        "Chat:"
+      ],
+      "bot": [
+        "English Conversational Partner said:",
+        "English Conversational Partner:",
+        "Assistant:",
+        "ChatGPT said:",
+        "ChatGPT:",
+        "AI:",
+        "English conversational partner said:"
+      ]
+    },
+    "portuguese": {
+      "learner": [
+        "Você disse:",
+        "Você:",
+        "Tú dijiste:",
+        "Tú dijiste："
+      ],
+      "bot": [
+        "English Conversational Partner disse:",
+        "English Conversacional Partner disse:",
+        "English Conversational Partner dijo:",
+        "English Conversational Partner dijo："
+      ]
+    },
+    "korean": {
+      "learner": [
+        "나의 말:",
+        "나의 말：",
+        "학생:",
+        "학생："
+      ],
+      "bot": [
+        "English Conversational Partner의 말:",
+        "English Conversational Partner의 말："
+      ]
+    },
+    "japanese": {
+      "learner": [
+        "You:",
+        "You said:",
+        "あなた:",
+        "あなた："
+      ],
+      "bot": [
+        "English Conversational Partner said:",
+        "English Conversational Partner の発言："
+      ]
+    },
+    "spanish": {
+      "learner": [
+        "Tú dijiste:",
+        "Tú dijiste：",
+        "You said:"
+      ],
+      "bot": [
+        "English Conversational Partner dijo:",
+        "English Conversational Partner dijo：",
+        "English Conversational Partner said:"
+      ]
+    }
+  },
+  "students": {
+    "1": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 4 },
+        "4": { "tasks": 3 }
+      },
+      "notes": "Some files use Julieth/J/Chat prefixes for learner turns."
+    },
+    "2": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2, "notes": "Contains Student & AI combined note to skip." },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2, "notes": "Also uses Me:, AI: labels." }
+      }
+    },
+    "5": {
+      "label_set": "korean",
+      "weeks": {
+        "1": { "tasks": 2 },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "7": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      },
+      "notes": "Some files start with English Conversational Partner said: before You said:."
+    },
+    "8": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2, "notes": "Contains Japanese sentences inline." },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3, "notes": "Contains Japanese sentences inline." }
+      }
+    },
+    "9": {
+      "label_set": "korean",
+      "weeks": {
+        "1": { "tasks": 2 },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "12": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "13": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3, "notes": "Includes ChatGPT said: sections." },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "14": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3 }
+      }
+    },
+    "16": {
+      "label_set": "portuguese",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3 }
+      }
+    },
+    "17": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2, "notes": "Uses User:/Assistant: labels." },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3 }
+      }
+    },
+    "18": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 }
+      }
+    },
+    "20": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3 }
+      }
+    },
+    "21": {
+      "label_set": "japanese",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3, "notes": "Uses Japanese bot label." },
+        "4": { "tasks": 2 }
+      }
+    },
+    "23": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 4, "notes": "Task 2 split into #1 and #2 subtasks." },
+        "4": { "tasks": 2 }
+      }
+    },
+    "24": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2 },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "25": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 2 },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "28": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3 }
+      }
+    },
+    "30": {
+      "label_set": "portuguese",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3, "notes": "Includes ChatGPT disse sections." },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 3 }
+      }
+    },
+    "34": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 3 },
+        "4": { "tasks": 2 }
+      }
+    },
+    "40": {
+      "label_set": "spanish",
+      "weeks": {
+        "1": { "tasks": 2, "notes": "Mixed English/Spanish labels." },
+        "2": { "tasks": 2 },
+        "3": { "tasks": 2 },
+        "4": { "tasks": 2 }
+      }
+    }
+  }
+}
+

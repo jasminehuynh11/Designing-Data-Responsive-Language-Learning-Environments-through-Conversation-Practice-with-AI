@@ -1,0 +1,38 @@
+[
+  {
+    "dialogue_id": "S30_W1_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      4,
+      5
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner's utterance 'I won't light up today' in turn 4 is unclear. The bot interprets this as the learner not wanting coffee and offers alternatives in turn 5, which allows the conversation to continue smoothly."
+  },
+  {
+    "dialogue_id": "S30_W1_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      12,
+      13
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner says 'I sit' in turn 12, which is unclear. The bot interprets this as 'iced' and confirms the order as iced black tea in turn 13, resolving the issue."
+  },
+  {
+    "dialogue_id": "S30_W1_T1",
+    "repair_id": 3,
+    "turn_indices": [
+      14,
+      15
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner's request for 'Sweetmare' in turn 14 is unclear. The bot interprets this as a request for lemon and confirms it in turn 15, allowing the conversation to proceed without further issues."
+  }
+]

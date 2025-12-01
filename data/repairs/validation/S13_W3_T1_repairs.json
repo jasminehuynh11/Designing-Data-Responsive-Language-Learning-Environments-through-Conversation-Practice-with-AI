@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S13_W3_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      16,
+      17
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "bot misunderstanding – learner's response unclear",
+    "evidence_summary": "In turn 16, the learner says 'No, I can see that,' which is unclear in response to the bot's question about error lights. The bot interprets this as a negative response and moves on to the next troubleshooting step in turn 17, resolving the issue."
+  },
+  {
+    "dialogue_id": "S13_W3_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      50,
+      51
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner requests repetition of reference number",
+    "evidence_summary": "In turn 50, the learner asks the bot to repeat the reference number. The bot repeats the number in turn 51, resolving the learner's request for clarification."
+  }
+]

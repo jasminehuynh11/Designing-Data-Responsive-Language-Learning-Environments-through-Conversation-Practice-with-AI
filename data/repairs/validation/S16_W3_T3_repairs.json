@@ -1,0 +1,15 @@
+[
+  {
+    "dialogue_id": "S16_W3_T3",
+    "repair_id": 1,
+    "turn_indices": [
+      22,
+      23,
+      24
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner did not understand bot's previous statement",
+    "evidence_summary": "The learner asks the bot to repeat its previous statement in turn 22, indicating a lack of understanding. The bot repeats the information in turn 23, and the learner acknowledges with 'OK' in turn 24, showing that the issue was resolved."
+  }
+]

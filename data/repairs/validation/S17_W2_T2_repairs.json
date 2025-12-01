@@ -1,0 +1,29 @@
+[
+  {
+    "dialogue_id": "S17_W2_T2",
+    "repair_id": 1,
+    "turn_indices": [
+      9,
+      10,
+      11
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner confused by bot's response",
+    "evidence_summary": "The bot incorrectly addresses the learner as 'Li Tao' in turn 9, which seems to confuse the learner, leading them to ask a seemingly unrelated question in turn 10. The bot then provides a relevant response in turn 11, which helps clarify the situation, resolving the confusion."
+  },
+  {
+    "dialogue_id": "S17_W2_T2",
+    "repair_id": 2,
+    "turn_indices": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "task misunderstanding – learner confused about account types",
+    "evidence_summary": "The learner asks about the difference between account types in turn 14, indicating a misunderstanding. The bot explains the difference in turn 15. The learner then corrects their choice in turn 16, showing that the explanation resolved their misunderstanding."
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "batch_name": "pilot",
+  "model_type": "gpt-enhanced",
+  "timestamp": "2025-11-28T12:03:57.176298",
+  "total_files": 10,
+  "successful": 10,
+  "failed": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "file": "S12_W1_T1.json",
+      "success": true,
+      "repairs_count": 4,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:24.743345",
+      "output_file": "pilot\\S12_W1_T1_repairs.json"
+    },
+    {
+      "file": "S12_W2_T1.json",
+      "success": true,
+      "repairs_count": 3,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:35.793137",
+      "output_file": "pilot\\S12_W2_T1_repairs.json"
+    },
+    {
+      "file": "S12_W2_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:40.935144",
+      "output_file": "pilot\\S12_W2_T2_repairs.json"
+    },
+    {
+      "file": "S12_W2_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:43.300760",
+      "output_file": "pilot\\S12_W2_T3_repairs.json"
+    },
+    {
+      "file": "S12_W3_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:45.666980",
+      "output_file": "pilot\\S12_W3_T1_repairs.json"
+    },
+    {
+      "file": "S12_W3_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:47.459714",
+      "output_file": "pilot\\S12_W3_T2_repairs.json"
+    },
+    {
+      "file": "S12_W4_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:49.433287",
+      "output_file": "pilot\\S12_W4_T1_repairs.json"
+    },
+    {
+      "file": "S12_W4_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:51.814403",
+      "output_file": "pilot\\S12_W4_T2_repairs.json"
+    },
+    {
+      "file": "S13_W1_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:54.083664",
+      "output_file": "pilot\\S13_W1_T1_repairs.json"
+    },
+    {
+      "file": "S13_W1_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T12:03:55.945096",
+      "output_file": "pilot\\S13_W1_T2_repairs.json"
+    }
+  ]
+}

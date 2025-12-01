@@ -1,0 +1,3531 @@
+{
+  "summary": {
+    "total_files": 193,
+    "valid_files": 193,
+    "invalid_files": 0,
+    "total_turns": 9385,
+    "total_errors": 0,
+    "total_warnings": 15
+  },
+  "files": [
+    {
+      "file": "data\\processed\\S12_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 74,
+        "student_id": 12,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S12_W1_T1",
+        "speaker_distribution": {
+          "learner": 36,
+          "bot": 38
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S12_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 46,
+        "student_id": 12,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S12_W2_T1",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S12_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 36,
+        "student_id": 12,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S12_W2_T2",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S12_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 44,
+        "student_id": 12,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S12_W2_T3",
+        "speaker_distribution": {
+          "learner": 22,
+          "bot": 22
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S12_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 28,
+        "student_id": 12,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S12_W3_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S12_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 28,
+        "student_id": 12,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S12_W3_T2",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 14
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "source_reference",
+          "message": "Dialogue turns not found in source text (possible parsing issue)",
+          "details": {
+            "checked_turns": 5,
+            "found": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S12_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 38,
+        "student_id": 12,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S12_W4_T1",
+        "speaker_distribution": {
+          "learner": 19,
+          "bot": 19
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S12_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 42,
+        "student_id": 12,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S12_W4_T2",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 21
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 29,
+        "student_id": 13,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S13_W1_T1",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 68,
+        "student_id": 13,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S13_W1_T2",
+        "speaker_distribution": {
+          "learner": 34,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 76,
+        "student_id": 13,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S13_W1_T3",
+        "speaker_distribution": {
+          "learner": 38,
+          "bot": 38
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 35,
+        "student_id": 13,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S13_W2_T1",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 17
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 99,
+        "student_id": 13,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S13_W2_T2",
+        "speaker_distribution": {
+          "learner": 50,
+          "bot": 49
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 121,
+        "student_id": 13,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S13_W3_T1",
+        "speaker_distribution": {
+          "learner": 61,
+          "bot": 60
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 52,
+        "student_id": 13,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S13_W4_T1",
+        "speaker_distribution": {
+          "learner": 26,
+          "bot": 26
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S13_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 78,
+        "student_id": 13,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S13_W4_T2",
+        "speaker_distribution": {
+          "learner": 39,
+          "bot": 39
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 27,
+        "student_id": 14,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S14_W1_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 53,
+        "student_id": 14,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S14_W1_T2",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 26
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 49,
+        "student_id": 14,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S14_W1_T3",
+        "speaker_distribution": {
+          "learner": 25,
+          "bot": 24
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 27,
+        "student_id": 14,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S14_W2_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 69,
+        "student_id": 14,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S14_W2_T2",
+        "speaker_distribution": {
+          "learner": 35,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 83,
+        "student_id": 14,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S14_W2_T3",
+        "speaker_distribution": {
+          "learner": 42,
+          "bot": 41
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 31,
+        "student_id": 14,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S14_W3_T1",
+        "speaker_distribution": {
+          "learner": 16,
+          "bot": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 61,
+        "student_id": 14,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S14_W3_T2",
+        "speaker_distribution": {
+          "learner": 31,
+          "bot": 30
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 55,
+        "student_id": 14,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S14_W3_T3",
+        "speaker_distribution": {
+          "learner": 28,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 36,
+        "student_id": 14,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S14_W4_T1",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 34,
+        "student_id": 14,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S14_W4_T2",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 17
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S14_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 22,
+        "student_id": 14,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S14_W4_T3",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 37,
+        "student_id": 16,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S16_W1_T1",
+        "speaker_distribution": {
+          "learner": 19,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 89,
+        "student_id": 16,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S16_W1_T2",
+        "speaker_distribution": {
+          "learner": 45,
+          "bot": 44
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 109,
+        "student_id": 16,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S16_W1_T3",
+        "speaker_distribution": {
+          "learner": 55,
+          "bot": 54
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 41,
+        "student_id": 16,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S16_W2_T1",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 20
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 73,
+        "student_id": 16,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S16_W2_T2",
+        "speaker_distribution": {
+          "learner": 37,
+          "bot": 36
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 69,
+        "student_id": 16,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S16_W2_T3",
+        "speaker_distribution": {
+          "learner": 35,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 61,
+        "student_id": 16,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S16_W3_T1",
+        "speaker_distribution": {
+          "learner": 31,
+          "bot": 30
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 100,
+        "student_id": 16,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S16_W3_T2",
+        "speaker_distribution": {
+          "learner": 50,
+          "bot": 50
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 64,
+        "student_id": 16,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S16_W3_T3",
+        "speaker_distribution": {
+          "learner": 32,
+          "bot": 32
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 27,
+        "student_id": 16,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S16_W4_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 42,
+        "student_id": 16,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S16_W4_T2",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 21
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S16_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 46,
+        "student_id": 16,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S16_W4_T3",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 31,
+        "student_id": 17,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S17_W1_T1",
+        "speaker_distribution": {
+          "learner": 16,
+          "bot": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 52,
+        "student_id": 17,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S17_W1_T2",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 25
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 15,
+        "student_id": 17,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S17_W2_T1",
+        "speaker_distribution": {
+          "bot": 8,
+          "learner": 7
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 25,
+        "student_id": 17,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S17_W2_T2",
+        "speaker_distribution": {
+          "bot": 14,
+          "learner": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 23,
+        "student_id": 17,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S17_W2_T3",
+        "speaker_distribution": {
+          "bot": 12,
+          "learner": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 35,
+        "student_id": 17,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S17_W3_T1",
+        "speaker_distribution": {
+          "bot": 18,
+          "learner": 17
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 25,
+        "student_id": 17,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S17_W3_T2",
+        "speaker_distribution": {
+          "bot": 13,
+          "learner": 12
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 23,
+        "student_id": 17,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S17_W3_T3",
+        "speaker_distribution": {
+          "bot": 12,
+          "learner": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 30,
+        "student_id": 17,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S17_W4_T1",
+        "speaker_distribution": {
+          "bot": 15,
+          "learner": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 31,
+        "student_id": 17,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S17_W4_T2",
+        "speaker_distribution": {
+          "bot": 16,
+          "learner": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S17_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 11,
+        "student_id": 17,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S17_W4_T3",
+        "speaker_distribution": {
+          "bot": 6,
+          "learner": 5
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S18_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 66,
+        "student_id": 18,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S18_W1_T1",
+        "speaker_distribution": {
+          "learner": 33,
+          "bot": 33
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S18_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 48,
+        "student_id": 18,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S18_W1_T2",
+        "speaker_distribution": {
+          "learner": 24,
+          "bot": 24
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S18_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 34,
+        "student_id": 18,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S18_W1_T3",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 17
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 47,
+        "student_id": 1,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S1_W1_T1",
+        "speaker_distribution": {
+          "learner": 47
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 46 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S1_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 117,
+        "student_id": 1,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S1_W1_T2",
+        "speaker_distribution": {
+          "learner": 83,
+          "bot": 34
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 49 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S1_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 27,
+        "student_id": 1,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S1_W2_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 67,
+        "student_id": 1,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S1_W2_T2",
+        "speaker_distribution": {
+          "learner": 34,
+          "bot": 33
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 77,
+        "student_id": 1,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S1_W2_T3",
+        "speaker_distribution": {
+          "learner": 39,
+          "bot": 38
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 29,
+        "student_id": 1,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S1_W3_T1",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 44,
+        "student_id": 1,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S1_W3_T2",
+        "speaker_distribution": {
+          "learner": 22,
+          "bot": 22
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 86,
+        "student_id": 1,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S1_W3_T3",
+        "speaker_distribution": {
+          "learner": 43,
+          "bot": 43
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 23,
+        "student_id": 1,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S1_W4_T1",
+        "speaker_distribution": {
+          "learner": 12,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 61,
+        "student_id": 1,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S1_W4_T2",
+        "speaker_distribution": {
+          "learner": 31,
+          "bot": 30
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S1_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 58,
+        "student_id": 1,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S1_W4_T3",
+        "speaker_distribution": {
+          "learner": 29,
+          "bot": 29
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 1,
+        "student_id": 20,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S20_W1_T2",
+        "speaker_distribution": {
+          "learner": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 32,
+        "student_id": 20,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S20_W2_T1",
+        "speaker_distribution": {
+          "learner": 16,
+          "bot": 16
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 28,
+        "student_id": 20,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S20_W2_T2",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 30,
+        "student_id": 20,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S20_W2_T3",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 42,
+        "student_id": 20,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S20_W3_T1",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 21
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 14,
+        "student_id": 20,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S20_W3_T2",
+        "speaker_distribution": {
+          "learner": 7,
+          "bot": 7
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 22,
+        "student_id": 20,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S20_W3_T3",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 24,
+        "student_id": 20,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S20_W4_T1",
+        "speaker_distribution": {
+          "learner": 12,
+          "bot": 12
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 20,
+        "student_id": 20,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S20_W4_T2",
+        "speaker_distribution": {
+          "learner": 10,
+          "bot": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S20_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 26,
+        "student_id": 20,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S20_W4_T3",
+        "speaker_distribution": {
+          "learner": 13,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 74,
+        "student_id": 21,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S21_W1_T1",
+        "speaker_distribution": {
+          "learner": 37,
+          "bot": 37
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 44,
+        "student_id": 21,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S21_W2_T1",
+        "speaker_distribution": {
+          "learner": 22,
+          "bot": 22
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 72,
+        "student_id": 21,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S21_W2_T2",
+        "speaker_distribution": {
+          "learner": 36,
+          "bot": 36
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 49,
+        "student_id": 21,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S21_W2_T3",
+        "speaker_distribution": {
+          "learner": 25,
+          "bot": 24
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "content_quality",
+          "message": "Suspicious turn lengths: [(30, 'too_long', 2151)]",
+          "details": {
+            "suspicious": [
+              [
+                30,
+                "too_long",
+                2151
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S21_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 22,
+        "student_id": 21,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S21_W3_T1",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 36,
+        "student_id": 21,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S21_W3_T2",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 68,
+        "student_id": 21,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S21_W3_T3",
+        "speaker_distribution": {
+          "learner": 34,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 38,
+        "student_id": 21,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S21_W4_T1",
+        "speaker_distribution": {
+          "learner": 19,
+          "bot": 19
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S21_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 73,
+        "student_id": 21,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S21_W4_T2",
+        "speaker_distribution": {
+          "learner": 36,
+          "bot": 37
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 76,
+        "student_id": 23,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S23_W1_T1",
+        "speaker_distribution": {
+          "learner": 38,
+          "bot": 38
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 63,
+        "student_id": 23,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S23_W1_T2",
+        "speaker_distribution": {
+          "learner": 31,
+          "bot": 32
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 60,
+        "student_id": 23,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S23_W1_T3",
+        "speaker_distribution": {
+          "learner": 30,
+          "bot": 30
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 53,
+        "student_id": 23,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S23_W2_T1",
+        "speaker_distribution": {
+          "learner": 26,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 56,
+        "student_id": 23,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S23_W2_T2",
+        "speaker_distribution": {
+          "learner": 28,
+          "bot": 28
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 54,
+        "student_id": 23,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S23_W2_T3",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 206,
+        "student_id": 23,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S23_W3_T1",
+        "speaker_distribution": {
+          "learner": 104,
+          "bot": 102
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 58,
+        "student_id": 23,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S23_W4_T1",
+        "speaker_distribution": {
+          "learner": 29,
+          "bot": 29
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S23_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 58,
+        "student_id": 23,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S23_W4_T2",
+        "speaker_distribution": {
+          "learner": 29,
+          "bot": 29
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S24_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 49,
+        "student_id": 24,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S24_W1_T1",
+        "speaker_distribution": {
+          "learner": 26,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S24_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 99,
+        "student_id": 24,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S24_W1_T2",
+        "speaker_distribution": {
+          "learner": 52,
+          "bot": 47
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S24_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 47,
+        "student_id": 24,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S24_W2_T1",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 24
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "content_quality",
+          "message": "Suspicious turn lengths: [(1, 'too_long', 3190)]",
+          "details": {
+            "suspicious": [
+              [
+                1,
+                "too_long",
+                3190
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S24_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 45,
+        "student_id": 24,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S24_W2_T2",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 22
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "content_quality",
+          "message": "Suspicious turn lengths: [(2, 'too_long', 2458)]",
+          "details": {
+            "suspicious": [
+              [
+                2,
+                "too_long",
+                2458
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S24_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 55,
+        "student_id": 24,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S24_W3_T1",
+        "speaker_distribution": {
+          "learner": 28,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S24_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 98,
+        "student_id": 24,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S24_W3_T2",
+        "speaker_distribution": {
+          "learner": 49,
+          "bot": 49
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "content_quality",
+          "message": "Suspicious turn lengths: [(55, 'too_long', 2671)]",
+          "details": {
+            "suspicious": [
+              [
+                55,
+                "too_long",
+                2671
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S24_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 57,
+        "student_id": 24,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S24_W4_T1",
+        "speaker_distribution": {
+          "learner": 29,
+          "bot": 28
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S24_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 43,
+        "student_id": 24,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S24_W4_T2",
+        "speaker_distribution": {
+          "learner": 22,
+          "bot": 21
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "content_quality",
+          "message": "Suspicious turn lengths: [(2, 'too_long', 2333)]",
+          "details": {
+            "suspicious": [
+              [
+                2,
+                "too_long",
+                2333
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S25_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 12,
+        "student_id": 25,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S25_W1_T1",
+        "speaker_distribution": {
+          "learner": 6,
+          "bot": 6
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 46,
+        "student_id": 25,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S25_W1_T2",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 39,
+        "student_id": 25,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S25_W2_T1",
+        "speaker_distribution": {
+          "learner": 20,
+          "bot": 19
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 76,
+        "student_id": 25,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S25_W2_T2",
+        "speaker_distribution": {
+          "learner": 38,
+          "bot": 38
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 21,
+        "student_id": 25,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S25_W3_T1",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 49,
+        "student_id": 25,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S25_W3_T2",
+        "speaker_distribution": {
+          "learner": 25,
+          "bot": 24
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 43,
+        "student_id": 25,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S25_W4_T1",
+        "speaker_distribution": {
+          "learner": 22,
+          "bot": 21
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S25_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 73,
+        "student_id": 25,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S25_W4_T2",
+        "speaker_distribution": {
+          "learner": 37,
+          "bot": 36
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 33,
+        "student_id": 28,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S28_W1_T1",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 16
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 71,
+        "student_id": 28,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S28_W1_T2",
+        "speaker_distribution": {
+          "learner": 36,
+          "bot": 35
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 81,
+        "student_id": 28,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S28_W1_T3",
+        "speaker_distribution": {
+          "learner": 41,
+          "bot": 40
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 41,
+        "student_id": 28,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S28_W2_T1",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 20
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 75,
+        "student_id": 28,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S28_W2_T2",
+        "speaker_distribution": {
+          "learner": 38,
+          "bot": 37
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 73,
+        "student_id": 28,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S28_W2_T3",
+        "speaker_distribution": {
+          "learner": 37,
+          "bot": 36
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 33,
+        "student_id": 28,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S28_W3_T1",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 16
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 55,
+        "student_id": 28,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S28_W3_T2",
+        "speaker_distribution": {
+          "learner": 28,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 59,
+        "student_id": 28,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S28_W3_T3",
+        "speaker_distribution": {
+          "learner": 30,
+          "bot": 29
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 41,
+        "student_id": 28,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S28_W4_T1",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 20
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 69,
+        "student_id": 28,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S28_W4_T2",
+        "speaker_distribution": {
+          "learner": 35,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S28_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 58,
+        "student_id": 28,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S28_W4_T3",
+        "speaker_distribution": {
+          "learner": 29,
+          "bot": 29
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S2_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 15,
+        "student_id": 2,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S2_W1_T1",
+        "speaker_distribution": {
+          "learner": 8,
+          "bot": 7
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S2_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 3,
+        "student_id": 2,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S2_W1_T2",
+        "speaker_distribution": {
+          "learner": 2,
+          "bot": 1
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 1 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S2_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 25,
+        "student_id": 2,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S2_W2_T1",
+        "speaker_distribution": {
+          "learner": 13,
+          "bot": 12
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S2_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 53,
+        "student_id": 2,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S2_W2_T2",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 26
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S2_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 33,
+        "student_id": 2,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S2_W3_T1",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 16
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S2_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 31,
+        "student_id": 2,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S2_W4_T1",
+        "speaker_distribution": {
+          "learner": 16,
+          "bot": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S2_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 25,
+        "student_id": 2,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S2_W4_T2",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 27,
+        "student_id": 30,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S30_W1_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 19,
+        "student_id": 30,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S30_W1_T2",
+        "speaker_distribution": {
+          "learner": 10,
+          "bot": 9
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 20,
+        "student_id": 30,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S30_W1_T3",
+        "speaker_distribution": {
+          "learner": 10,
+          "bot": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 16,
+        "student_id": 30,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S30_W2_T1",
+        "speaker_distribution": {
+          "learner": 16
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 15 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          }
+        },
+        {
+          "severity": "warning",
+          "category": "source_reference",
+          "message": "Dialogue turns not found in source text (possible parsing issue)",
+          "details": {
+            "checked_turns": 5,
+            "found": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S30_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 20,
+        "student_id": 30,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S30_W2_T2",
+        "speaker_distribution": {
+          "learner": 20
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 19 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S30_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 30,
+        "student_id": 30,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S30_W2_T3",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 20,
+        "student_id": 30,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S30_W3_T1",
+        "speaker_distribution": {
+          "learner": 10,
+          "bot": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 22,
+        "student_id": 30,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S30_W3_T2",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 29,
+        "student_id": 30,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S30_W3_T3",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 20,
+        "student_id": 30,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S30_W4_T1",
+        "speaker_distribution": {
+          "learner": 10,
+          "bot": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 22,
+        "student_id": 30,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S30_W4_T2",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S30_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 30,
+        "student_id": 30,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S30_W4_T3",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 47,
+        "student_id": 34,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S34_W1_T1",
+        "speaker_distribution": {
+          "learner": 24,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 217,
+        "student_id": 34,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S34_W1_T2",
+        "speaker_distribution": {
+          "learner": 109,
+          "bot": 108
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 152,
+        "student_id": 34,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S34_W2_T1",
+        "speaker_distribution": {
+          "learner": 76,
+          "bot": 76
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "content_quality",
+          "message": "Suspicious turn lengths: [(75, 'too_short', 1), (83, 'too_short', 1), (113, 'too_short', 1), (123, 'too_short', 1)]",
+          "details": {
+            "suspicious": [
+              [
+                75,
+                "too_short",
+                1
+              ],
+              [
+                83,
+                "too_short",
+                1
+              ],
+              [
+                113,
+                "too_short",
+                1
+              ],
+              [
+                123,
+                "too_short",
+                1
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S34_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 68,
+        "student_id": 34,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S34_W2_T2",
+        "speaker_distribution": {
+          "learner": 34,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 52,
+        "student_id": 34,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S34_W2_T3",
+        "speaker_distribution": {
+          "learner": 26,
+          "bot": 26
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 54,
+        "student_id": 34,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S34_W3_T1",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 82,
+        "student_id": 34,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S34_W3_T2",
+        "speaker_distribution": {
+          "learner": 41,
+          "bot": 41
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W3_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 41,
+        "student_id": 34,
+        "week": 3,
+        "task": 3,
+        "dialogue_id": "S34_W3_T3",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 20
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 38,
+        "student_id": 34,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S34_W4_T1",
+        "speaker_distribution": {
+          "learner": 19,
+          "bot": 19
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S34_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 67,
+        "student_id": 34,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S34_W4_T2",
+        "speaker_distribution": {
+          "learner": 33,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 28,
+        "student_id": 40,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S40_W1_T1",
+        "speaker_distribution": {
+          "learner": 14,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 34,
+        "student_id": 40,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S40_W1_T2",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 17
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 32,
+        "student_id": 40,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S40_W2_T1",
+        "speaker_distribution": {
+          "learner": 16,
+          "bot": 16
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 36,
+        "student_id": 40,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S40_W2_T2",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 24,
+        "student_id": 40,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S40_W3_T1",
+        "speaker_distribution": {
+          "learner": 12,
+          "bot": 12
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 32,
+        "student_id": 40,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S40_W3_T2",
+        "speaker_distribution": {
+          "learner": 16,
+          "bot": 16
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 29,
+        "student_id": 40,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S40_W4_T1",
+        "speaker_distribution": {
+          "learner": 15,
+          "bot": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S40_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 14,
+        "student_id": 40,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S40_W4_T2",
+        "speaker_distribution": {
+          "learner": 7,
+          "bot": 7
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 1,
+        "student_id": 5,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S5_W1_T1",
+        "speaker_distribution": {
+          "learner": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 46,
+        "student_id": 5,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S5_W1_T2",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 56,
+        "student_id": 5,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S5_W2_T1",
+        "speaker_distribution": {
+          "learner": 28,
+          "bot": 28
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 68,
+        "student_id": 5,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S5_W2_T2",
+        "speaker_distribution": {
+          "learner": 34,
+          "bot": 34
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 78,
+        "student_id": 5,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S5_W3_T1",
+        "speaker_distribution": {
+          "learner": 39,
+          "bot": 39
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 56,
+        "student_id": 5,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S5_W3_T2",
+        "speaker_distribution": {
+          "learner": 28,
+          "bot": 28
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 36,
+        "student_id": 5,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S5_W4_T1",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S5_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 54,
+        "student_id": 5,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S5_W4_T2",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 27
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 87,
+        "student_id": 7,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S7_W1_T1",
+        "speaker_distribution": {
+          "bot": 44,
+          "learner": 43
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 23,
+        "student_id": 7,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S7_W1_T2",
+        "speaker_distribution": {
+          "bot": 11,
+          "learner": 12
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W1_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 15,
+        "student_id": 7,
+        "week": 1,
+        "task": 3,
+        "dialogue_id": "S7_W1_T3",
+        "speaker_distribution": {
+          "bot": 8,
+          "learner": 7
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 19,
+        "student_id": 7,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S7_W2_T1",
+        "speaker_distribution": {
+          "bot": 10,
+          "learner": 9
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 26,
+        "student_id": 7,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S7_W2_T2",
+        "speaker_distribution": {
+          "learner": 13,
+          "bot": 13
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 29,
+        "student_id": 7,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S7_W3_T1",
+        "speaker_distribution": {
+          "bot": 15,
+          "learner": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 21,
+        "student_id": 7,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S7_W3_T2",
+        "speaker_distribution": {
+          "bot": 11,
+          "learner": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 16,
+        "student_id": 7,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S7_W4_T1",
+        "speaker_distribution": {
+          "learner": 8,
+          "bot": 8
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S7_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 13,
+        "student_id": 7,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S7_W4_T2",
+        "speaker_distribution": {
+          "learner": 7,
+          "bot": 6
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 50,
+        "student_id": 8,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S8_W1_T1",
+        "speaker_distribution": {
+          "learner": 25,
+          "bot": 25
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 42,
+        "student_id": 8,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S8_W1_T2",
+        "speaker_distribution": {
+          "learner": 21,
+          "bot": 21
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 48,
+        "student_id": 8,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S8_W2_T1",
+        "speaker_distribution": {
+          "learner": 25,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 34,
+        "student_id": 8,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S8_W2_T2",
+        "speaker_distribution": {
+          "learner": 17,
+          "bot": 17
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W2_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 46,
+        "student_id": 8,
+        "week": 2,
+        "task": 3,
+        "dialogue_id": "S8_W2_T3",
+        "speaker_distribution": {
+          "learner": 23,
+          "bot": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 49,
+        "student_id": 8,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S8_W3_T1",
+        "speaker_distribution": {
+          "learner": 25,
+          "bot": 24
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 75,
+        "student_id": 8,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S8_W3_T2",
+        "speaker_distribution": {
+          "learner": 38,
+          "bot": 37
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 48,
+        "student_id": 8,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S8_W4_T1",
+        "speaker_distribution": {
+          "learner": 24,
+          "bot": 24
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 22,
+        "student_id": 8,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S8_W4_T2",
+        "speaker_distribution": {
+          "learner": 11,
+          "bot": 11
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S8_W4_T3.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 36,
+        "student_id": 8,
+        "week": 4,
+        "task": 3,
+        "dialogue_id": "S8_W4_T3",
+        "speaker_distribution": {
+          "learner": 18,
+          "bot": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S9_W1_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 59,
+        "student_id": 9,
+        "week": 1,
+        "task": 1,
+        "dialogue_id": "S9_W1_T1",
+        "speaker_distribution": {
+          "learner": 30,
+          "bot": 29
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S9_W1_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 110,
+        "student_id": 9,
+        "week": 1,
+        "task": 2,
+        "dialogue_id": "S9_W1_T2",
+        "speaker_distribution": {
+          "learner": 55,
+          "bot": 55
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S9_W2_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 29,
+        "student_id": 9,
+        "week": 2,
+        "task": 1,
+        "dialogue_id": "S9_W2_T1",
+        "speaker_distribution": {
+          "learner": 29
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 28 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S9_W2_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 59,
+        "student_id": 9,
+        "week": 2,
+        "task": 2,
+        "dialogue_id": "S9_W2_T2",
+        "speaker_distribution": {
+          "learner": 59
+        }
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "speaker_pattern",
+          "message": "Many consecutive same-speaker turns: 58 pairs",
+          "details": {
+            "consecutive_pairs": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data\\processed\\S9_W3_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 38,
+        "student_id": 9,
+        "week": 3,
+        "task": 1,
+        "dialogue_id": "S9_W3_T1",
+        "speaker_distribution": {
+          "learner": 19,
+          "bot": 19
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S9_W3_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 64,
+        "student_id": 9,
+        "week": 3,
+        "task": 2,
+        "dialogue_id": "S9_W3_T2",
+        "speaker_distribution": {
+          "learner": 32,
+          "bot": 32
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S9_W4_T1.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 53,
+        "student_id": 9,
+        "week": 4,
+        "task": 1,
+        "dialogue_id": "S9_W4_T1",
+        "speaker_distribution": {
+          "learner": 27,
+          "bot": 26
+        }
+      },
+      "issues": []
+    },
+    {
+      "file": "data\\processed\\S9_W4_T2.json",
+      "valid": true,
+      "stats": {
+        "total_turns": 148,
+        "student_id": 9,
+        "week": 4,
+        "task": 2,
+        "dialogue_id": "S9_W4_T2",
+        "speaker_distribution": {
+          "learner": 74,
+          "bot": 74
+        }
+      },
+      "issues": []
+    }
+  ]
+}

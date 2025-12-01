@@ -1,0 +1,411 @@
+{
+  "batch_name": "validation",
+  "model_type": "gpt-enhanced",
+  "timestamp": "2025-11-28T19:21:31.021460",
+  "total_files": 50,
+  "successful": 50,
+  "failed": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "file": "S12_W1_T1.json",
+      "success": true,
+      "repairs_count": 5,
+      "error": null,
+      "timestamp": "2025-11-28T19:18:33.706790",
+      "output_file": "validation\\S12_W1_T1_repairs.json"
+    },
+    {
+      "file": "S12_W2_T1.json",
+      "success": true,
+      "repairs_count": 2,
+      "error": null,
+      "timestamp": "2025-11-28T19:18:50.710608",
+      "output_file": "validation\\S12_W2_T1_repairs.json"
+    },
+    {
+      "file": "S12_W2_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:18:56.051983",
+      "output_file": "validation\\S12_W2_T2_repairs.json"
+    },
+    {
+      "file": "S12_W2_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:18:59.089599",
+      "output_file": "validation\\S12_W2_T3_repairs.json"
+    },
+    {
+      "file": "S12_W3_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:01.202065",
+      "output_file": "validation\\S12_W3_T1_repairs.json"
+    },
+    {
+      "file": "S12_W3_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:03.198378",
+      "output_file": "validation\\S12_W3_T2_repairs.json"
+    },
+    {
+      "file": "S12_W4_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:04.912659",
+      "output_file": "validation\\S12_W4_T1_repairs.json"
+    },
+    {
+      "file": "S12_W4_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:06.830944",
+      "output_file": "validation\\S12_W4_T2_repairs.json"
+    },
+    {
+      "file": "S13_W1_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:09.254006",
+      "output_file": "validation\\S13_W1_T1_repairs.json"
+    },
+    {
+      "file": "S13_W1_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:11.890875",
+      "output_file": "validation\\S13_W1_T2_repairs.json"
+    },
+    {
+      "file": "S13_W1_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:14.318690",
+      "output_file": "validation\\S13_W1_T3_repairs.json"
+    },
+    {
+      "file": "S13_W2_T1.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:16.385794",
+      "output_file": "validation\\S13_W2_T1_repairs.json"
+    },
+    {
+      "file": "S13_W2_T2.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:22.881543",
+      "output_file": "validation\\S13_W2_T2_repairs.json"
+    },
+    {
+      "file": "S13_W3_T1.json",
+      "success": true,
+      "repairs_count": 2,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:26.088036",
+      "output_file": "validation\\S13_W3_T1_repairs.json"
+    },
+    {
+      "file": "S13_W4_T1.json",
+      "success": true,
+      "repairs_count": 2,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:32.807477",
+      "output_file": "validation\\S13_W4_T1_repairs.json"
+    },
+    {
+      "file": "S13_W4_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:38.301068",
+      "output_file": "validation\\S13_W4_T2_repairs.json"
+    },
+    {
+      "file": "S14_W1_T1.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:40.519558",
+      "output_file": "validation\\S14_W1_T1_repairs.json"
+    },
+    {
+      "file": "S14_W1_T2.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:43.886103",
+      "output_file": "validation\\S14_W1_T2_repairs.json"
+    },
+    {
+      "file": "S14_W1_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:48.099652",
+      "output_file": "validation\\S14_W1_T3_repairs.json"
+    },
+    {
+      "file": "S14_W2_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:49.913043",
+      "output_file": "validation\\S14_W2_T1_repairs.json"
+    },
+    {
+      "file": "S14_W2_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:51.784237",
+      "output_file": "validation\\S14_W2_T2_repairs.json"
+    },
+    {
+      "file": "S14_W2_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:53.563193",
+      "output_file": "validation\\S14_W2_T3_repairs.json"
+    },
+    {
+      "file": "S14_W3_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:55.479410",
+      "output_file": "validation\\S14_W3_T1_repairs.json"
+    },
+    {
+      "file": "S14_W3_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:19:58.104050",
+      "output_file": "validation\\S14_W3_T2_repairs.json"
+    },
+    {
+      "file": "S14_W3_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:00.051376",
+      "output_file": "validation\\S14_W3_T3_repairs.json"
+    },
+    {
+      "file": "S14_W4_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:02.016873",
+      "output_file": "validation\\S14_W4_T1_repairs.json"
+    },
+    {
+      "file": "S14_W4_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:04.163158",
+      "output_file": "validation\\S14_W4_T2_repairs.json"
+    },
+    {
+      "file": "S14_W4_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:05.916478",
+      "output_file": "validation\\S14_W4_T3_repairs.json"
+    },
+    {
+      "file": "S16_W1_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:07.711319",
+      "output_file": "validation\\S16_W1_T1_repairs.json"
+    },
+    {
+      "file": "S16_W1_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:10.077386",
+      "output_file": "validation\\S16_W1_T2_repairs.json"
+    },
+    {
+      "file": "S16_W1_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:12.704488",
+      "output_file": "validation\\S16_W1_T3_repairs.json"
+    },
+    {
+      "file": "S16_W2_T1.json",
+      "success": true,
+      "repairs_count": 3,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:14.989521",
+      "output_file": "validation\\S16_W2_T1_repairs.json"
+    },
+    {
+      "file": "S16_W2_T2.json",
+      "success": true,
+      "repairs_count": 4,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:21.008519",
+      "output_file": "validation\\S16_W2_T2_repairs.json"
+    },
+    {
+      "file": "S16_W2_T3.json",
+      "success": true,
+      "repairs_count": 3,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:29.284999",
+      "output_file": "validation\\S16_W2_T3_repairs.json"
+    },
+    {
+      "file": "S16_W3_T1.json",
+      "success": true,
+      "repairs_count": 2,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:36.355100",
+      "output_file": "validation\\S16_W3_T1_repairs.json"
+    },
+    {
+      "file": "S16_W3_T2.json",
+      "success": true,
+      "repairs_count": 3,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:40.614785",
+      "output_file": "validation\\S16_W3_T2_repairs.json"
+    },
+    {
+      "file": "S16_W3_T3.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:46.749779",
+      "output_file": "validation\\S16_W3_T3_repairs.json"
+    },
+    {
+      "file": "S16_W4_T1.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:50.092568",
+      "output_file": "validation\\S16_W4_T1_repairs.json"
+    },
+    {
+      "file": "S16_W4_T2.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:55.312150",
+      "output_file": "validation\\S16_W4_T2_repairs.json"
+    },
+    {
+      "file": "S16_W4_T3.json",
+      "success": true,
+      "repairs_count": 3,
+      "error": null,
+      "timestamp": "2025-11-28T19:20:59.961536",
+      "output_file": "validation\\S16_W4_T3_repairs.json"
+    },
+    {
+      "file": "S17_W1_T1.json",
+      "success": true,
+      "repairs_count": 1,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:05.682076",
+      "output_file": "validation\\S17_W1_T1_repairs.json"
+    },
+    {
+      "file": "S17_W1_T2.json",
+      "success": true,
+      "repairs_count": 2,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:10.870715",
+      "output_file": "validation\\S17_W1_T2_repairs.json"
+    },
+    {
+      "file": "S17_W2_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:15.129230",
+      "output_file": "validation\\S17_W2_T1_repairs.json"
+    },
+    {
+      "file": "S17_W2_T2.json",
+      "success": true,
+      "repairs_count": 2,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:16.814197",
+      "output_file": "validation\\S17_W2_T2_repairs.json"
+    },
+    {
+      "file": "S17_W2_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:21.198608",
+      "output_file": "validation\\S17_W2_T3_repairs.json"
+    },
+    {
+      "file": "S17_W3_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:22.921525",
+      "output_file": "validation\\S17_W3_T1_repairs.json"
+    },
+    {
+      "file": "S17_W3_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:24.782527",
+      "output_file": "validation\\S17_W3_T2_repairs.json"
+    },
+    {
+      "file": "S17_W3_T3.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:26.556543",
+      "output_file": "validation\\S17_W3_T3_repairs.json"
+    },
+    {
+      "file": "S17_W4_T1.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:28.472430",
+      "output_file": "validation\\S17_W4_T1_repairs.json"
+    },
+    {
+      "file": "S17_W4_T2.json",
+      "success": true,
+      "repairs_count": 0,
+      "error": null,
+      "timestamp": "2025-11-28T19:21:30.245038",
+      "output_file": "validation\\S17_W4_T2_repairs.json"
+    }
+  ]
+}

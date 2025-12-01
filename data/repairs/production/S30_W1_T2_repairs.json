@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S30_W1_T2",
+    "repair_id": 1,
+    "turn_indices": [
+      6,
+      7
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "bot misunderstanding – irrelevant response to 'time-free'",
+    "evidence_summary": "The learner says 'maybe time-free' in turn 6, which is unclear. The bot responds with 'Perfect, it is!' in turn 7, which is irrelevant to the learner's statement. However, the conversation continues smoothly, indicating the issue was not critical to the task."
+  },
+  {
+    "dialogue_id": "S30_W1_T2",
+    "repair_id": 2,
+    "turn_indices": [
+      12,
+      13
+    ],
+    "initiation": "LI",
+    "resolution": "U-A",
+    "trigger": "learner's unclear utterance – 'You old hippie, please?'",
+    "evidence_summary": "The learner's statement 'You old hippie, please?' in turn 12 is unclear and does not relate to the context. The bot responds in turn 13 with a generic reassurance, but the original issue is not addressed, and the conversation moves on."
+  }
+]

@@ -1,7 +1,7 @@
 {
-  "chi2_statistic": 0.0,
-  "p_value": 1.0,
-  "degrees_of_freedom": 0,
+  "chi2_statistic": 0.10759140905584423,
+  "p_value": 0.7429031231864497,
+  "degrees_of_freedom": 1,
   "significant": false,
-  "test_performed": false
+  "test_performed": true
 }

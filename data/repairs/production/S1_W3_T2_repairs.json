@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S1_W3_T2",
+    "repair_id": 1,
+    "turn_indices": [
+      4,
+      5
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner mentions 'accelerator' in turn 4, which is likely a mispronunciation or incorrect word choice for 'heater'. The bot interprets this as 'shutter' in turn 5, which is incorrect but the conversation continues smoothly, indicating the bot's interpretation was accepted or not challenged by the learner."
+  },
+  {
+    "dialogue_id": "S1_W3_T2",
+    "repair_id": 2,
+    "turn_indices": [
+      10,
+      11
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner confused about 'header'",
+    "evidence_summary": "The learner uses 'header' in turn 10, which seems to be a mispronunciation or incorrect word choice for 'heater'. The bot correctly interprets the context and responds about the 'heater' in turn 11, resolving the confusion."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S1_W3_T1",
+    "repair_id": 1,
+    "turn_indices": [
+      8,
+      9
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner provides location and time details in turn 8, but the bot misrecognizes 'Paradise' as 'Paradais' and 'Compton' as 'Cobertown', and '10 a.m.' as '3 a.m.' in turn 9. Despite the misrecognition, the bot continues the conversation, indicating it has accepted the information as understood, resolving the issue."
+  },
+  {
+    "dialogue_id": "S1_W3_T1",
+    "repair_id": 2,
+    "turn_indices": [
+      14,
+      15
+    ],
+    "initiation": "BI",
+    "resolution": "R",
+    "trigger": "pronunciation/ASR – misrecognition of learner speech",
+    "evidence_summary": "The learner describes the phone case in turn 14, mentioning 'cats in the case'. The bot misinterprets this as 'red color' in turn 15. The bot acknowledges the description, and the conversation continues without further clarification, indicating resolution."
+  }
+]

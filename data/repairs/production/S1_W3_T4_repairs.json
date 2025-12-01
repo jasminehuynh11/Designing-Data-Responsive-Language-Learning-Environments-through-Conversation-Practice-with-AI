@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S1_W3_T4",
+    "repair_id": 1,
+    "turn_indices": [
+      11,
+      12
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "vocabulary – learner uses 'mother' instead of 'modem'",
+    "evidence_summary": "The learner uses 'mother' instead of 'modem' in turn 12, which could cause confusion. However, the bot does not directly address this error but continues the conversation smoothly, indicating that the misunderstanding did not persist."
+  },
+  {
+    "dialogue_id": "S1_W3_T4",
+    "repair_id": 2,
+    "turn_indices": [
+      40,
+      41
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "request for repetition – learner asks bot to repeat more slowly",
+    "evidence_summary": "In turn 40, the learner asks the bot to repeat more slowly, indicating a need for clarification. The bot complies in turn 41 by repeating the information at a slower pace, resolving the issue."
+  }
+]
