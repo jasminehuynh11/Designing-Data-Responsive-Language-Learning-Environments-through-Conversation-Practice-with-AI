@@ -19,9 +19,11 @@ This project implements a complete workflow for:
 │   ├── extracted_text/   # Plain text extracted from documents
 │   ├── processed/        # Structured JSON dialogue files and repair annotations
 │   └── review/           # Human-readable review documents for validation
+├── run_full_pipeline.py       # ⭐ Unified pipeline (recommended for new data)
 ├── scripts/
 │   ├── document_extractor.py  # Utilities for extracting text from Word/PDF
 │   ├── dialogue_parser.py     # Parser for normalizing and structuring dialogues
+│   ├── preprocessing_pipeline.py  # Preprocessing pipeline
 │   ├── repair_detector.py     # LLM-based repair sequence detection
 │   └── task_classifier.py     # Task topic classification
 ├── notebooks/
@@ -29,7 +31,8 @@ This project implements a complete workflow for:
 │   └── 02_statistical_analysis.ipynb    # Phase 2: Statistical analysis and proficiency assessment
 ├── statistical_analysis_images/  # Generated visualizations and analysis outputs
 ├── requirements.txt      # Python dependencies
-└── README_API_SETUP.md  # Gemini API configuration guide
+├── README_API_SETUP.md  # Gemini API configuration guide
+└── README_PIPELINE.md   # Detailed pipeline usage guide
 ```
 
 ## Setup
@@ -49,12 +52,53 @@ pip install -r requirements.txt
    - Week3: `#16. Week3.docx`
    - Week4: `#14. Week4.docx`
 
+## Quick Start: Processing New Data
+
+**Recommended:** Use the unified pipeline script to process new student data:
+
+```bash
+# Process specific students and weeks
+python run_full_pipeline.py --student 18 26 32 36 --week 1 2 3 4
+
+# Process all new files (auto-discovers from config)
+python run_full_pipeline.py --all
+```
+
+This single command handles:
+1. **Text Extraction** - Extracts text from Word/PDF documents
+2. **Dialogue Processing** - Parses dialogues and splits into tasks
+3. **Repair Detection** - Detects repair sequences using LLM
+
+See `README_PIPELINE.md` for detailed usage and examples.
+
 ## Workflow
 
-### Phase 1: Preprocessing
+### Unified Pipeline (Recommended)
 
-Run the preprocessing notebook to extract and structure dialogue data:
+The `run_full_pipeline.py` script combines all processing steps:
 
+```bash
+# Process specific students
+python run_full_pipeline.py --student 18 26 --week 1 2 3 4
+
+# Process all files
+python run_full_pipeline.py --all
+
+# Skip repair detection (preprocessing only)
+python run_full_pipeline.py --student 18 --week 2 --skip-repairs
+```
+
+### Individual Steps (Alternative)
+
+If you need to run steps separately:
+
+#### Phase 1: Preprocessing
+
+```bash
+python scripts/preprocessing_pipeline.py --student 18 --week 1 2 3 4
+```
+
+Or use the preprocessing notebook:
 ```bash
 jupyter notebook notebooks/01_phase1_preprocessing.ipynb
 ```
@@ -62,12 +106,10 @@ jupyter notebook notebooks/01_phase1_preprocessing.ipynb
 This will:
 - Extract text from Word/PDF documents
 - Parse dialogues and normalize speakers (learner/bot)
-- Split into tasks (3 tasks per week)
-- Save as JSON files: `W1_T1.json`, `W1_T2.json`, etc.
+- Split into tasks (based on config)
+- Save as JSON files: `S18_W1_T1.json`, `S18_W1_T2.json`, etc.
 
-### Phase 2: Repair Detection
-
-Use the repair detection script to identify communication repair sequences:
+#### Phase 2: Repair Detection
 
 ```bash
 python run_phase2_repair_detection.py
