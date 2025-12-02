@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S32_W2_T3",
+    "repair_id": 1,
+    "turn_indices": [
+      9,
+      10
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "learner checking understanding – confirming information",
+    "evidence_summary": "The learner explicitly states 'I would like to confirm if I understand well' regarding the online application process, indicating a need to verify their understanding. The bot confirms the learner's understanding with 'Exactly, you got it!', successfully resolving the learner's uncertainty."
+  },
+  {
+    "dialogue_id": "S32_W2_T3",
+    "repair_id": 2,
+    "turn_indices": [
+      16,
+      17
+    ],
+    "initiation": "BI",
+    "resolution": "U-A",
+    "trigger": "bot misunderstanding – irrelevant response",
+    "evidence_summary": "The bot's response in turn 16 about a 'physical card' and 'digital card' is completely irrelevant to the preceding conversation about rental prices and inclusions, indicating a clear misunderstanding by the bot. The learner acknowledges the bot's turn with 'Okay, thank you' but then immediately shifts topic to documents and inspections, abandoning the bot's misunderstanding without attempting to clarify or correct it."
+  }
+]
