@@ -1,0 +1,26 @@
+[
+  {
+    "dialogue_id": "S43_W4_T2",
+    "repair_id": 1,
+    "turn_indices": [
+      10,
+      11
+    ],
+    "initiation": "LI",
+    "resolution": "R",
+    "trigger": "omission/forgotten detail – learner reminds bot of a task requirement",
+    "evidence_summary": "The learner points out that the plan discussed so far has forgotten a key part about 'four commonly used AI tools' (turn 10). The bot acknowledges this omission ('Ah, you're absolutely right!') and immediately incorporates it into the plan (turn 11), resolving the issue."
+  },
+  {
+    "dialogue_id": "S43_W4_T2",
+    "repair_id": 2,
+    "turn_indices": [
+      26,
+      27
+    ],
+    "initiation": "BI",
+    "resolution": "U-A",
+    "trigger": "bot misunderstanding – bot misremembers/misstates agreed-upon day",
+    "evidence_summary": "The learner states 'see you on Friday' (turn 26). The bot responds with 'see you on Wednesday!' (turn 27), indicating a misunderstanding or misremembering of the agreed-upon day. The dialogue ends immediately after the bot's incorrect statement, so the issue is unresolved and abandoned."
+  }
+]

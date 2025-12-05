@@ -299,6 +299,15 @@
         "3": { "tasks": 2 },
         "4": { "tasks": 2 }
       }
+    },
+    "43": {
+      "label_set": "english_standard",
+      "weeks": {
+        "1": { "tasks": 3 },
+        "2": { "tasks": 3 },
+        "3": { "tasks": 4 },
+        "4": { "tasks": 3 }
+      }
     }
   }
 }
